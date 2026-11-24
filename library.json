@@ -10,9 +10,11 @@
       6,
       7,
       8,
-      9
+      9,
+      10,
+      11
     ],
-    "question_count": 142,
+    "question_count": 180,
     "excluded": [
       "手写笔记 数分.pdf",
       "缺失的第4周"
@@ -349,6 +351,28 @@
       ]
     },
     {
+      "path": "函数极限与连续性/函数极限/对数慢变",
+      "levels": [
+        "函数极限与连续性",
+        "函数极限",
+        "对数慢变"
+      ],
+      "question_ids": [
+        "w11-q16"
+      ]
+    },
+    {
+      "path": "函数极限与连续性/函数极限/对数增长",
+      "levels": [
+        "函数极限与连续性",
+        "函数极限",
+        "对数增长"
+      ],
+      "question_ids": [
+        "w11-q07"
+      ]
+    },
+    {
       "path": "函数极限与连续性/函数极限/多项式连续性",
       "levels": [
         "函数极限与连续性",
@@ -446,7 +470,19 @@
       "question_ids": [
         "w01-q19",
         "w02-q13",
-        "w03-q16"
+        "w03-q16",
+        "w11-q04"
+      ]
+    },
+    {
+      "path": "函数极限与连续性/函数极限/瑕点极限",
+      "levels": [
+        "函数极限与连续性",
+        "函数极限",
+        "瑕点极限"
+      ],
+      "question_ids": [
+        "w11-q06"
       ]
     },
     {
@@ -752,6 +788,17 @@
       ]
     },
     {
+      "path": "函数极限与连续性/一致连续性/一致连续函数极限",
+      "levels": [
+        "函数极限与连续性",
+        "一致连续性",
+        "一致连续函数极限"
+      ],
+      "question_ids": [
+        "w11-q05"
+      ]
+    },
+    {
       "path": "函数极限与连续性/一致连续性/有限覆盖与拼接",
       "levels": [
         "函数极限与连续性",
@@ -895,6 +942,51 @@
       ]
     },
     {
+      "path": "数列与级数/变号级数/绝对与条件收敛",
+      "levels": [
+        "数列与级数",
+        "变号级数",
+        "绝对与条件收敛"
+      ],
+      "question_ids": [
+        "w11-q13"
+      ]
+    },
+    {
+      "path": "数列与级数/变号级数/Abel判别法",
+      "levels": [
+        "数列与级数",
+        "变号级数",
+        "Abel判别法"
+      ],
+      "question_ids": [
+        "w11-q18"
+      ]
+    },
+    {
+      "path": "数列与级数/变号级数/Dirichlet判别法",
+      "levels": [
+        "数列与级数",
+        "变号级数",
+        "Dirichlet判别法"
+      ],
+      "question_ids": [
+        "w11-q18"
+      ]
+    },
+    {
+      "path": "数列与级数/变号级数/Leibniz判别法",
+      "levels": [
+        "数列与级数",
+        "变号级数",
+        "Leibniz判别法"
+      ],
+      "question_ids": [
+        "w11-q13",
+        "w11-q17"
+      ]
+    },
+    {
       "path": "数列与级数/渐近估计/Stirling公式",
       "levels": [
         "数列与级数",
@@ -903,6 +995,85 @@
       ],
       "question_ids": [
         "w09-q18"
+      ]
+    },
+    {
+      "path": "数列与级数/数列极限/Cauchy准则",
+      "levels": [
+        "数列与级数",
+        "数列极限",
+        "Cauchy准则"
+      ],
+      "question_ids": [
+        "w11-q15"
+      ]
+    },
+    {
+      "path": "数列与级数/正项级数/比值与比较判别",
+      "levels": [
+        "数列与级数",
+        "正项级数",
+        "比值与比较判别"
+      ],
+      "question_ids": [
+        "w11-q13"
+      ]
+    },
+    {
+      "path": "数列与级数/正项级数/必要条件",
+      "levels": [
+        "数列与级数",
+        "正项级数",
+        "必要条件"
+      ],
+      "question_ids": [
+        "w11-q15"
+      ]
+    },
+    {
+      "path": "数列与级数/正项级数/积分判别法",
+      "levels": [
+        "数列与级数",
+        "正项级数",
+        "积分判别法"
+      ],
+      "question_ids": [
+        "w11-q02",
+        "w11-q16"
+      ]
+    },
+    {
+      "path": "数列与级数/正项级数/凝聚与比较",
+      "levels": [
+        "数列与级数",
+        "正项级数",
+        "凝聚与比较"
+      ],
+      "question_ids": [
+        "w11-q16"
+      ]
+    },
+    {
+      "path": "数列与级数/正项级数/Cauchy凝聚判别法",
+      "levels": [
+        "数列与级数",
+        "正项级数",
+        "Cauchy凝聚判别法"
+      ],
+      "question_ids": [
+        "w11-q02",
+        "w11-q14"
+      ]
+    },
+    {
+      "path": "数列与极限/递推数列/单调收敛",
+      "levels": [
+        "数列与极限",
+        "递推数列",
+        "单调收敛"
+      ],
+      "question_ids": [
+        "w11-q17"
       ]
     },
     {
@@ -1670,6 +1841,61 @@
       ]
     },
     {
+      "path": "数学分析基础/函数分解/Jordan分解",
+      "levels": [
+        "数学分析基础",
+        "函数分解",
+        "Jordan分解"
+      ],
+      "question_ids": [
+        "w10-q16"
+      ]
+    },
+    {
+      "path": "数学分析基础/函数空间/范数插值",
+      "levels": [
+        "数学分析基础",
+        "函数空间",
+        "范数插值"
+      ],
+      "question_ids": [
+        "w10-q10"
+      ]
+    },
+    {
+      "path": "数学分析基础/函数空间/局部正则性",
+      "levels": [
+        "数学分析基础",
+        "函数空间",
+        "局部正则性"
+      ],
+      "question_ids": [
+        "w11-q12"
+      ]
+    },
+    {
+      "path": "数学分析基础/函数空间/Lp范数",
+      "levels": [
+        "数学分析基础",
+        "函数空间",
+        "Lp范数"
+      ],
+      "question_ids": [
+        "w11-q09"
+      ]
+    },
+    {
+      "path": "数学分析基础/黎曼积分/有限点修改",
+      "levels": [
+        "数学分析基础",
+        "黎曼积分",
+        "有限点修改"
+      ],
+      "question_ids": [
+        "w10-q15"
+      ]
+    },
+    {
       "path": "数学分析基础/实数完备性/Bolzano-Weierstrass定理",
       "levels": [
         "数学分析基础",
@@ -1678,6 +1904,61 @@
       ],
       "question_ids": [
         "w09-q14"
+      ]
+    },
+    {
+      "path": "数学分析基础/数论证明/反证法",
+      "levels": [
+        "数学分析基础",
+        "数论证明",
+        "反证法"
+      ],
+      "question_ids": [
+        "w10-q19"
+      ]
+    },
+    {
+      "path": "数学分析基础/一致连续性/振荡函数",
+      "levels": [
+        "数学分析基础",
+        "一致连续性",
+        "振荡函数"
+      ],
+      "question_ids": [
+        "w10-q20"
+      ]
+    },
+    {
+      "path": "数学分析基础/Holder不等式/积分估计",
+      "levels": [
+        "数学分析基础",
+        "Holder不等式",
+        "积分估计"
+      ],
+      "question_ids": [
+        "w10-q12"
+      ]
+    },
+    {
+      "path": "数学建模/物理应用/球壳定理",
+      "levels": [
+        "数学建模",
+        "物理应用",
+        "球壳定理"
+      ],
+      "question_ids": [
+        "w11-q11"
+      ]
+    },
+    {
+      "path": "数学建模/物理应用/万有引力",
+      "levels": [
+        "数学建模",
+        "物理应用",
+        "万有引力"
+      ],
+      "question_ids": [
+        "w11-q10"
       ]
     },
     {
@@ -2073,6 +2354,18 @@
       ]
     },
     {
+      "path": "一元函数积分学/定积分/对称换元",
+      "levels": [
+        "一元函数积分学",
+        "定积分",
+        "对称换元"
+      ],
+      "question_ids": [
+        "w10-q01",
+        "w10-q04"
+      ]
+    },
+    {
       "path": "一元函数积分学/定积分/对称性",
       "levels": [
         "一元函数积分学",
@@ -2080,7 +2373,8 @@
         "对称性"
       ],
       "question_ids": [
-        "w09-q05"
+        "w09-q05",
+        "w10-q07"
       ]
     },
     {
@@ -2092,7 +2386,8 @@
       ],
       "question_ids": [
         "w09-q02",
-        "w09-q03"
+        "w09-q03",
+        "w10-q05"
       ]
     },
     {
@@ -2116,7 +2411,8 @@
       "question_ids": [
         "w09-q02",
         "w09-q05",
-        "w09-q09"
+        "w09-q09",
+        "w10-q04"
       ]
     },
     {
@@ -2149,7 +2445,8 @@
         "积分估计"
       ],
       "question_ids": [
-        "w09-q08"
+        "w09-q08",
+        "w10-q19"
       ]
     },
     {
@@ -2227,7 +2524,9 @@
         "周期函数积分"
       ],
       "question_ids": [
-        "w09-q12"
+        "w09-q12",
+        "w10-q01",
+        "w10-q02"
       ]
     },
     {
@@ -2242,6 +2541,163 @@
       ]
     },
     {
+      "path": "一元函数积分学/反常积分/比较判别法",
+      "levels": [
+        "一元函数积分学",
+        "反常积分",
+        "比较判别法"
+      ],
+      "question_ids": [
+        "w11-q01",
+        "w11-q04"
+      ]
+    },
+    {
+      "path": "一元函数积分学/反常积分/单调比较",
+      "levels": [
+        "一元函数积分学",
+        "反常积分",
+        "单调比较"
+      ],
+      "question_ids": [
+        "w11-q06"
+      ]
+    },
+    {
+      "path": "一元函数积分学/反常积分/端点判别",
+      "levels": [
+        "一元函数积分学",
+        "反常积分",
+        "端点判别"
+      ],
+      "question_ids": [
+        "w11-q01"
+      ]
+    },
+    {
+      "path": "一元函数积分学/反常积分/对称主值",
+      "levels": [
+        "一元函数积分学",
+        "反常积分",
+        "对称主值"
+      ],
+      "question_ids": [
+        "w11-q12"
+      ]
+    },
+    {
+      "path": "一元函数积分学/反常积分/绝对收敛",
+      "levels": [
+        "一元函数积分学",
+        "反常积分",
+        "绝对收敛"
+      ],
+      "question_ids": [
+        "w11-q08"
+      ]
+    },
+    {
+      "path": "一元函数积分学/反常积分/绝对与条件收敛",
+      "levels": [
+        "一元函数积分学",
+        "反常积分",
+        "绝对与条件收敛"
+      ],
+      "question_ids": [
+        "w11-q03"
+      ]
+    },
+    {
+      "path": "一元函数积分学/反常积分/瑕积分",
+      "levels": [
+        "一元函数积分学",
+        "反常积分",
+        "瑕积分"
+      ],
+      "question_ids": [
+        "w11-q11"
+      ]
+    },
+    {
+      "path": "一元函数积分学/反常积分/向量值积分",
+      "levels": [
+        "一元函数积分学",
+        "反常积分",
+        "向量值积分"
+      ],
+      "question_ids": [
+        "w11-q10"
+      ]
+    },
+    {
+      "path": "一元函数积分学/反常积分/Cauchy准则",
+      "levels": [
+        "一元函数积分学",
+        "反常积分",
+        "Cauchy准则"
+      ],
+      "question_ids": [
+        "w11-q05",
+        "w11-q07"
+      ]
+    },
+    {
+      "path": "一元函数积分学/反常积分/Dirichlet判别法",
+      "levels": [
+        "一元函数积分学",
+        "反常积分",
+        "Dirichlet判别法"
+      ],
+      "question_ids": [
+        "w11-q01",
+        "w11-q03"
+      ]
+    },
+    {
+      "path": "一元函数积分学/积分不等式/递推估计",
+      "levels": [
+        "一元函数积分学",
+        "积分不等式",
+        "递推估计"
+      ],
+      "question_ids": [
+        "w10-q08"
+      ]
+    },
+    {
+      "path": "一元函数积分学/积分不等式/Hardy不等式",
+      "levels": [
+        "一元函数积分学",
+        "积分不等式",
+        "Hardy不等式"
+      ],
+      "question_ids": [
+        "w11-q09"
+      ]
+    },
+    {
+      "path": "一元函数积分学/积分不等式/Holder不等式",
+      "levels": [
+        "一元函数积分学",
+        "积分不等式",
+        "Holder不等式"
+      ],
+      "question_ids": [
+        "w10-q10"
+      ]
+    },
+    {
+      "path": "一元函数积分学/积分不等式/Young不等式",
+      "levels": [
+        "一元函数积分学",
+        "积分不等式",
+        "Young不等式"
+      ],
+      "question_ids": [
+        "w10-q09"
+      ]
+    },
+    {
       "path": "一元函数积分学/黎曼可积性/振幅判据",
       "levels": [
         "一元函数积分学",
@@ -2251,6 +2707,62 @@
       "question_ids": [
         "w09-q14",
         "w09-q15"
+      ]
+    },
+    {
+      "path": "一元函数积分学/微积分基本定理/变限积分",
+      "levels": [
+        "一元函数积分学",
+        "微积分基本定理",
+        "变限积分"
+      ],
+      "question_ids": [
+        "w10-q05",
+        "w10-q06"
+      ]
+    },
+    {
+      "path": "一元函数积分学/微积分基本定理/变限积分求导",
+      "levels": [
+        "一元函数积分学",
+        "微积分基本定理",
+        "变限积分求导"
+      ],
+      "question_ids": [
+        "w10-q03"
+      ]
+    },
+    {
+      "path": "一元函数积分学/Holder不等式/积分估计",
+      "levels": [
+        "一元函数积分学",
+        "Holder不等式",
+        "积分估计"
+      ],
+      "question_ids": [
+        "w10-q13"
+      ]
+    },
+    {
+      "path": "一元函数积分学/Riemann-Stieltjes积分/存在判别",
+      "levels": [
+        "一元函数积分学",
+        "Riemann-Stieltjes积分",
+        "存在判别"
+      ],
+      "question_ids": [
+        "w10-q17"
+      ]
+    },
+    {
+      "path": "一元函数积分学/Riemann-Stieltjes积分/分部积分",
+      "levels": [
+        "一元函数积分学",
+        "Riemann-Stieltjes积分",
+        "分部积分"
+      ],
+      "question_ids": [
+        "w10-q18"
       ]
     },
     {
@@ -2299,6 +2811,17 @@
       ]
     },
     {
+      "path": "一元函数极限/无穷远极限/积分平均",
+      "levels": [
+        "一元函数极限",
+        "无穷远极限",
+        "积分平均"
+      ],
+      "question_ids": [
+        "w10-q02"
+      ]
+    },
+    {
       "path": "一元函数极限/无穷远极限/平均值",
       "levels": [
         "一元函数极限",
@@ -2340,6 +2863,17 @@
       ],
       "question_ids": [
         "w09-q16"
+      ]
+    },
+    {
+      "path": "一元函数连续性/一致连续/模连续",
+      "levels": [
+        "一元函数连续性",
+        "一致连续",
+        "模连续"
+      ],
+      "question_ids": [
+        "w10-q17"
       ]
     },
     {
@@ -2465,6 +2999,17 @@
       ]
     },
     {
+      "path": "一元函数微分学/导数应用/单调函数导数符号",
+      "levels": [
+        "一元函数微分学",
+        "导数应用",
+        "单调函数导数符号"
+      ],
+      "question_ids": [
+        "w11-q08"
+      ]
+    },
+    {
       "path": "一元函数微分学/导数应用/单调性与微分不等式",
       "levels": [
         "一元函数微分学",
@@ -2587,6 +3132,61 @@
       ]
     },
     {
+      "path": "一元函数微分学/函数不等式/二阶导数估计",
+      "levels": [
+        "一元函数微分学",
+        "函数不等式",
+        "二阶导数估计"
+      ],
+      "question_ids": [
+        "w10-q14"
+      ]
+    },
+    {
+      "path": "一元函数微分学/函数不等式/最佳常数",
+      "levels": [
+        "一元函数微分学",
+        "函数不等式",
+        "最佳常数"
+      ],
+      "question_ids": [
+        "w10-q11"
+      ]
+    },
+    {
+      "path": "一元函数微分学/函数不等式/Morrey不等式",
+      "levels": [
+        "一元函数微分学",
+        "函数不等式",
+        "Morrey不等式"
+      ],
+      "question_ids": [
+        "w10-q12"
+      ]
+    },
+    {
+      "path": "一元函数微分学/函数不等式/Poincare不等式",
+      "levels": [
+        "一元函数微分学",
+        "函数不等式",
+        "Poincare不等式"
+      ],
+      "question_ids": [
+        "w10-q11"
+      ]
+    },
+    {
+      "path": "一元函数微分学/函数不等式/Sobolev不等式",
+      "levels": [
+        "一元函数微分学",
+        "函数不等式",
+        "Sobolev不等式"
+      ],
+      "question_ids": [
+        "w10-q13"
+      ]
+    },
+    {
       "path": "一元函数微分学/函数性态/凹凸与拐点",
       "levels": [
         "一元函数微分学",
@@ -2642,6 +3242,28 @@
       ]
     },
     {
+      "path": "一元函数微分学/曲线与弧长/弧长公式",
+      "levels": [
+        "一元函数微分学",
+        "曲线与弧长",
+        "弧长公式"
+      ],
+      "question_ids": [
+        "w10-q20"
+      ]
+    },
+    {
+      "path": "一元函数微分学/弱导数/测试函数定义",
+      "levels": [
+        "一元函数微分学",
+        "弱导数",
+        "测试函数定义"
+      ],
+      "question_ids": [
+        "w10-q15"
+      ]
+    },
+    {
       "path": "一元函数微分学/凸函数/闭凸包与对偶性",
       "levels": [
         "一元函数微分学",
@@ -2683,6 +3305,17 @@
       ],
       "question_ids": [
         "w08-q10"
+      ]
+    },
+    {
+      "path": "一元函数微分学/凸函数/切线不等式",
+      "levels": [
+        "一元函数微分学",
+        "凸函数",
+        "切线不等式"
+      ],
+      "question_ids": [
+        "w10-q07"
       ]
     },
     {
@@ -2741,6 +3374,28 @@
       ]
     },
     {
+      "path": "一元函数微分学/有界变差/总变差函数",
+      "levels": [
+        "一元函数微分学",
+        "有界变差",
+        "总变差函数"
+      ],
+      "question_ids": [
+        "w10-q16"
+      ]
+    },
+    {
+      "path": "一元函数微分学/中值定理/积分中值定理",
+      "levels": [
+        "一元函数微分学",
+        "中值定理",
+        "积分中值定理"
+      ],
+      "question_ids": [
+        "w10-q06"
+      ]
+    },
+    {
       "path": "一元函数微分学/中值定理/拉格朗日中值定理",
       "levels": [
         "一元函数微分学",
@@ -2772,7 +3427,8 @@
         "Lagrange中值定理"
       ],
       "question_ids": [
-        "w08-q11"
+        "w08-q11",
+        "w10-q14"
       ]
     },
     {
@@ -2895,6 +3551,17 @@
       ],
       "question_ids": [
         "w09-q08"
+      ]
+    },
+    {
+      "path": "一元函数微分学/Taylor公式/整数导数构造",
+      "levels": [
+        "一元函数微分学",
+        "Taylor公式",
+        "整数导数构造"
+      ],
+      "question_ids": [
+        "w10-q19"
       ]
     },
     {
@@ -9918,6 +10585,1828 @@
         "verification": "- 题干对照第9周提示版第7-8页；证明参考对应讲义并重新推导。\n- 已检查小问覆盖、公式括号、定义域及定理条件。"
       },
       "search_text": "w09-q18\n第9周\n第18题\nEuler求和公式及其应用\n一元函数积分学/定积分/Euler求和公式\n一元函数积分学/定积分/分段分部积分\n数列与级数/渐近估计/Stirling公式\nEuler求和公式及其应用\nEuler求和公式\n分段分部积分\nStirling公式\n本题均设 $n\\ge2$ 为整数，$[x]$ 为不超过$x$的最大整数。证明：\n(1) $s\\ne1$ 时 $\\sum_{k=1}^nk^{-s}=n^{1-s}+s\\int_1^n[x]x^{-s-1}dx$，并推出调和数公式；\n(2) $f\\in C^1[1,2n]$ 时证明交错和的积分表达式；\n(3) 定义周期锯齿函数 $\\phi_1(x)=x-[x]-1/2$（非整数处，整数处置0），$\\phi_2(x)=\\int_0^x\\phi_1(t)dt$，证明Euler求和公式；\n(4) 取 $f(x)=\\ln x$ 得到 $\\ln(n!)$ 的积分余项表达式。"
+    },
+    {
+      "id": "w10-q01",
+      "week": 10,
+      "question_number": 1,
+      "title": "带绝对值的周期积分",
+      "file": "第10周/第1题.md",
+      "sources": [
+        "作业/第10周习题-提示版.pdf",
+        "作业/第10周习题讲义.pdf"
+      ],
+      "source_pages": "提示版1；讲义2",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 2,
+        "importance": 3,
+        "exam_probability": 3,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★☆☆☆",
+        "importance": "★★★☆☆",
+        "exam_probability": "★★★☆☆"
+      },
+      "knowledge": [
+        "一元函数积分学/定积分/周期函数积分",
+        "一元函数积分学/定积分/对称换元"
+      ],
+      "tags": [
+        "带绝对值的周期积分",
+        "周期函数积分",
+        "对称换元"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "设 $n$ 为正整数，计算 $\\displaystyle\\int_0^{n\\pi}x|\\sin x|\\,dx$。",
+        "hint": "对区间作关于中点的反射 $x=npi-t$。反射后一次因子变成 $npi-t$，而绝对值正弦保持不变；与原式相加消去变量。",
+        "framework": "1. 设积分为$I$。\n2. 反射换元，写出第二个$I$。\n3. 两式相加后用$|\\sin t|$的周期性。",
+        "solution": "记 $I=\\int_0^{n\\pi}x|\\sin x|dx$。令 $x=n\\pi-t$，利用 $|\\sin(n\\pi-t)|=|\\sin t|$，得到\n$$I=\\int_0^{n\\pi}(n\\pi-t)|\\sin t|dt.$$\n两式相加：\n$$2I=n\\pi\\int_0^{n\\pi}|\\sin t|dt.$$\n每个长度为$\\pi$的周期上积分为2，故积分为$2n$，于是 $I=n^2\\pi$。",
+        "reflection": "对称换元常将不对称权重$x$变成常数减$x$；先相加再积分比逐段计算更省力。",
+        "knowledge_notes": "- 一元函数积分学/定积分/周期函数积分\n- 一元函数积分学/定积分/对称换元",
+        "rating_notes": "- 难度：★★☆☆☆（2/5）；结合论证层次与计算技巧评估。\n- 重要性：★★★☆☆（3/5）；结合知识基础性与迁移价值评估。\n- 考试复现概率：★★★☆☆（3/5）；暂定同类题型判断，非历年统计概率。",
+        "verification": "- 对照第10周提示版第1页和讲义第1题，重写了推导步骤。\n- 已检查公式结构、边界项与定理条件。"
+      },
+      "search_text": "w10-q01\n第10周\n第1题\n带绝对值的周期积分\n一元函数积分学/定积分/周期函数积分\n一元函数积分学/定积分/对称换元\n带绝对值的周期积分\n周期函数积分\n对称换元\n设 $n$ 为正整数，计算 $\\displaystyle\\int_0^{n\\pi}x|\\sin x|\\,dx$。"
+    },
+    {
+      "id": "w10-q02",
+      "week": 10,
+      "question_number": 2,
+      "title": "周期函数的积分平均",
+      "file": "第10周/第2题.md",
+      "sources": [
+        "作业/第10周习题-提示版.pdf",
+        "作业/第10周习题讲义.pdf"
+      ],
+      "source_pages": "提示版2；讲义2",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 2,
+        "importance": 3,
+        "exam_probability": 3,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★☆☆☆",
+        "importance": "★★★☆☆",
+        "exam_probability": "★★★☆☆"
+      },
+      "knowledge": [
+        "一元函数积分学/定积分/周期函数积分",
+        "一元函数极限/无穷远极限/积分平均"
+      ],
+      "tags": [
+        "周期函数的积分平均",
+        "周期函数积分",
+        "积分平均"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "设 $S(x)=\\int_0^x|\\cos t|dt$，求 $\\lim_{x\\to+\\infty}S(x)/x$。",
+        "hint": "将区间拆成整数个长度$pi$的周期和一个有统一界的余段。",
+        "framework": "1. 写$x=m\\pi+r$，其中$0\\le r<\\pi$。\n2. 完整周期每段积分为2。\n3. 余段积分有界，除以$x$趋于0。",
+        "solution": "令 $m=[x/\\pi]$、$r=x-m\\pi$。则\n$$S(x)=2m+\\int_0^r|\\cos t|dt,$$\n且 $0\\le\\int_0^r|\\cos t|dt\\le2$。又 $m/x\\to1/\\pi$，余段除以$x$趋零，所以极限为 $2/\\pi$。更具体地，\n$$S(x)-\\frac{2x}{\\pi}=\\int_0^r|\\cos t|dt-\\frac{2r}{\\pi},$$\n右侧绝对值有与$x$无关的上界，故误差是$O(1)$。",
+        "reflection": "长期平均由单周期平均值决定，有限长度尾段不会改变归一化极限。",
+        "knowledge_notes": "- 一元函数积分学/定积分/周期函数积分\n- 一元函数极限/无穷远极限/积分平均",
+        "rating_notes": "- 难度：★★☆☆☆（2/5）；结合论证层次与计算技巧评估。\n- 重要性：★★★☆☆（3/5）；结合知识基础性与迁移价值评估。\n- 考试复现概率：★★★☆☆（3/5）；暂定同类题型判断，非历年统计概率。",
+        "verification": "- 对照第10周提示版第2页和讲义第2题，重写了推导步骤。\n- 已检查公式结构、边界项与定理条件。"
+      },
+      "search_text": "w10-q02\n第10周\n第2题\n周期函数的积分平均\n一元函数积分学/定积分/周期函数积分\n一元函数极限/无穷远极限/积分平均\n周期函数的积分平均\n周期函数积分\n积分平均\n设 $S(x)=\\int_0^x|\\cos t|dt$，求 $\\lim_{x\\to+\\infty}S(x)/x$。"
+    },
+    {
+      "id": "w10-q03",
+      "week": 10,
+      "question_number": 3,
+      "title": "伸缩不变的积分",
+      "file": "第10周/第3题.md",
+      "sources": [
+        "作业/第10周习题-提示版.pdf",
+        "作业/第10周习题讲义.pdf"
+      ],
+      "source_pages": "提示版2；讲义3",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 2,
+        "importance": 4,
+        "exam_probability": 3,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★☆☆☆",
+        "importance": "★★★★☆",
+        "exam_probability": "★★★☆☆"
+      },
+      "knowledge": [
+        "一元函数积分学/微积分基本定理/变限积分求导"
+      ],
+      "tags": [
+        "伸缩不变的积分",
+        "变限积分求导"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "设 $f:(0,\\infty)\\to\\mathbb R$ 连续。若对每个 $a>0$，$g_a(x)=\\int_x^{ax}f(t)dt$ 在$(0,\\infty)$上为常数（可依赖$a$），证明存在$c\\in\\mathbb R$使$f(x)=c/x$。",
+        "hint": "固定$a$对变限积分求导，得到伸缩函数方程，再令$x=1$确定$f$。",
+        "framework": "1. 固定$a$，求$g_a'(x)$。\n2. 常函数导数为0，得到$a f(ax)=f(x)$。\n3. 取$x=1$并将$a$替换为任意正数。",
+        "solution": "由Leibniz公式，\n$$0=g_a'(x)=a f(ax)-f(x).$$\n令 $c=f(1)$，并在上式取 $x=1$，得 $a f(a)=f(1)=c$。因$a>0$任意，故 $f(a)=c/a$，即结论对所有正数成立。反过来 $f(t)=c/t$ 确有 $g_a(x)=c\\ln a$，与题设相容。",
+        "reflection": "这里求得的不仅是必要形状，也可代回检查充分性；参数$a$任意是推出全域公式的关键。",
+        "knowledge_notes": "- 一元函数积分学/微积分基本定理/变限积分求导",
+        "rating_notes": "- 难度：★★☆☆☆（2/5）；结合论证层次与计算技巧评估。\n- 重要性：★★★★☆（4/5）；结合知识基础性与迁移价值评估。\n- 考试复现概率：★★★☆☆（3/5）；暂定同类题型判断，非历年统计概率。",
+        "verification": "- 对照第10周提示版第2页和讲义第3题，重写了推导步骤。\n- 已检查公式结构、边界项与定理条件。"
+      },
+      "search_text": "w10-q03\n第10周\n第3题\n伸缩不变的积分\n一元函数积分学/微积分基本定理/变限积分求导\n伸缩不变的积分\n变限积分求导\n设 $f:(0,\\infty)\\to\\mathbb R$ 连续。若对每个 $a>0$，$g_a(x)=\\int_x^{ax}f(t)dt$ 在$(0,\\infty)$上为常数（可依赖$a$），证明存在$c\\in\\mathbb R$使$f(x)=c/x$。"
+    },
+    {
+      "id": "w10-q04",
+      "week": 10,
+      "question_number": 4,
+      "title": "换元与加权积分",
+      "file": "第10周/第4题.md",
+      "sources": [
+        "作业/第10周习题-提示版.pdf",
+        "作业/第10周习题讲义.pdf"
+      ],
+      "source_pages": "提示版2；讲义3",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 3,
+        "importance": 4,
+        "exam_probability": 3,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★★☆☆",
+        "importance": "★★★★☆",
+        "exam_probability": "★★★☆☆"
+      },
+      "knowledge": [
+        "一元函数积分学/定积分/换元积分法",
+        "一元函数积分学/定积分/对称换元"
+      ],
+      "tags": [
+        "换元与加权积分",
+        "换元积分法",
+        "对称换元"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "设$f:(0,\\infty)\\to\\mathbb R$连续，证明\n$$\\int_1^4 f\\!\\left(\\frac x2+\\frac2x\\right)\\frac{\\ln x}{x}dx\n=(\\ln2)\\int_1^4 f\\!\\left(\\frac x2+\\frac2x\\right)\\frac{dx}{x}.$$",
+        "hint": "令左边为$I$、无对数的加权积分为$J$，作反演换元$x=4/t$；复合函数部分保持不变。",
+        "framework": "1. 设$I$为左侧、$J$为右侧不含$\\ln x$的积分。\n2. 反演换元$x=4/t$，检查复合自变量不变。\n3. 得$I=(\\ln4)J-I$，解出$I$。",
+        "solution": "记\n$$I=\\int_1^4 f\\!\\left(\\frac x2+\\frac2x\\right)\\frac{\\ln x}{x}dx,\\qquad\nJ=\\int_1^4 f\\!\\left(\\frac x2+\\frac2x\\right)\\frac{dx}{x}.$$\n在$I$中作换元$x=4/t$。上下限互换，且\n$$\\frac{x}{2}+\\frac2x=\\frac2t+\\frac t2=\\frac t2+\\frac2t,\\quad\n\\ln x=\\ln4-\\ln t,\\quad \\frac{dx}{x}=-\\frac{dt}{t}.$$\n因此\n$$I=\\int_1^4f\\!\\left(\\frac t2+\\frac2t\\right)(\\ln4-\\ln t)\\frac{dt}{t}\n=(\\ln4)J-I.$$\n所以 $2I=(\\ln4)J$，即$I=(\\ln2)J$。",
+        "reflection": "提示版的打印公式与提示中的不变量结构需要视觉核对；先不要贸然按OCR结果作证明。",
+        "knowledge_notes": "- 一元函数积分学/定积分/换元积分法\n- 一元函数积分学/定积分/对称换元",
+        "rating_notes": "- 难度：★★★☆☆（3/5）；结合论证层次与计算技巧评估。\n- 重要性：★★★★☆（4/5）；结合知识基础性与迁移价值评估。\n- 考试复现概率：★★★☆☆（3/5）；暂定同类题型判断，非历年统计概率。",
+        "verification": "- 对照第10周提示版第2页和讲义第4题，重写了推导步骤。\n- 已检查公式结构、边界项与定理条件。"
+      },
+      "search_text": "w10-q04\n第10周\n第4题\n换元与加权积分\n一元函数积分学/定积分/换元积分法\n一元函数积分学/定积分/对称换元\n换元与加权积分\n换元积分法\n对称换元\n设$f:(0,\\infty)\\to\\mathbb R$连续，证明\n$$\\int_1^4 f\\!\\left(\\frac x2+\\frac2x\\right)\\frac{\\ln x}{x}dx\n=(\\ln2)\\int_1^4 f\\!\\left(\\frac x2+\\frac2x\\right)\\frac{dx}{x}.$$"
+    },
+    {
+      "id": "w10-q05",
+      "week": 10,
+      "question_number": 5,
+      "title": "二重累次积分",
+      "file": "第10周/第5题.md",
+      "sources": [
+        "作业/第10周习题-提示版.pdf",
+        "作业/第10周习题讲义.pdf"
+      ],
+      "source_pages": "提示版2；讲义4",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 2,
+        "importance": 4,
+        "exam_probability": 3,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★☆☆☆",
+        "importance": "★★★★☆",
+        "exam_probability": "★★★☆☆"
+      },
+      "knowledge": [
+        "一元函数积分学/定积分/分部积分法",
+        "一元函数积分学/微积分基本定理/变限积分"
+      ],
+      "tags": [
+        "二重累次积分",
+        "分部积分法",
+        "变限积分"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "设$f\\in C(\\mathbb R)$，证明对每个$x\\in\\mathbb R$，\n$$\\int_0^x f(u)(x-u)du=\\int_0^x\\left(\\int_0^u f(t)dt\\right)du,$$\n其中$x<0$时按有向积分理解。",
+        "hint": "对左边分部积分，取原函数$F(u)=\\int_0^u f(t)dt$；边界项为零。",
+        "framework": "1. 定义$F$并说明$F'=f$、$F(0)=0$。\n2. 对左侧作分部积分。\n3. 验证边界项在任意$x$下消失。",
+        "solution": "令 $F(u)=\\int_0^u f(t)dt$。则 $F'=f$ 且 $F(0)=0$。对任意实数$x$，按有向积分的分部积分公式：\n$$\\int_0^x f(u)(x-u)du=[(x-u)F(u)]_0^x-\\int_0^xF(u)(-1)du.$$\n端点项在$u=x$处因$x-u=0$而为0，在$u=0$处因$F(0)=0$也为0，剩下$\\int_0^xF(u)du$，即右侧。此证没有交换积分次序，因此对负$x$同样成立。",
+        "reflection": "有向积分的分部积分公式不要求上限大于下限；用累次积分换序反而会多引入定理条件。",
+        "knowledge_notes": "- 一元函数积分学/定积分/分部积分法\n- 一元函数积分学/微积分基本定理/变限积分",
+        "rating_notes": "- 难度：★★☆☆☆（2/5）；结合论证层次与计算技巧评估。\n- 重要性：★★★★☆（4/5）；结合知识基础性与迁移价值评估。\n- 考试复现概率：★★★☆☆（3/5）；暂定同类题型判断，非历年统计概率。",
+        "verification": "- 对照第10周提示版第2页和讲义第5题，重写了推导步骤。\n- 已检查公式结构、边界项与定理条件。"
+      },
+      "search_text": "w10-q05\n第10周\n第5题\n二重累次积分\n一元函数积分学/定积分/分部积分法\n一元函数积分学/微积分基本定理/变限积分\n二重累次积分\n分部积分法\n变限积分\n设$f\\in C(\\mathbb R)$，证明对每个$x\\in\\mathbb R$，\n$$\\int_0^x f(u)(x-u)du=\\int_0^x\\left(\\int_0^u f(t)dt\\right)du,$$\n其中$x<0$时按有向积分理解。"
+    },
+    {
+      "id": "w10-q06",
+      "week": 10,
+      "question_number": 6,
+      "title": "积分平均与函数的最大模",
+      "file": "第10周/第6题.md",
+      "sources": [
+        "作业/第10周习题-提示版.pdf",
+        "作业/第10周习题讲义.pdf"
+      ],
+      "source_pages": "提示版3；讲义4",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 3,
+        "importance": 4,
+        "exam_probability": 4,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★★☆☆",
+        "importance": "★★★★☆",
+        "exam_probability": "★★★★☆"
+      },
+      "knowledge": [
+        "一元函数微分学/中值定理/积分中值定理",
+        "一元函数积分学/微积分基本定理/变限积分"
+      ],
+      "tags": [
+        "积分平均与函数的最大模",
+        "积分中值定理",
+        "变限积分"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "设$a<b$、$f\\in C^1[a,b]$，证明\n$$\\max_{[a,b]}|f(x)|\\le\\left|\\frac1{b-a}\\int_a^bf(t)dt\\right|+\\int_a^b|f'(t)|dt.$$",
+        "hint": "积分中值定理找一个点使函数值等于平均值，再用基本定理控制任意点与该点差值。",
+        "framework": "1. 设$m$为函数平均值，积分中值定理给$f(\\xi)=m$。\n2. 写$f(x)-f(\\xi)$为导数积分。\n3. 取绝对值并对$x$取最大。",
+        "solution": "令 $m=(b-a)^{-1}\\int_a^bf$。连续函数的积分中值定理保证存在$\\xi\\in[a,b]$使$f(\\xi)=m$。对任意$x$，\n$$f(x)=m+\\int_\\xi^x f'(t)dt,$$\n因此\n$$|f(x)|\\le|m|+\\left|\\int_\\xi^xf'(t)dt\\right|\n\\le|m|+\\int_a^b|f'(t)|dt.$$\n对$x$取最大即得。",
+        "reflection": "平均值控制一个基准点，导数的L1范数控制全区间偏移。",
+        "knowledge_notes": "- 一元函数微分学/中值定理/积分中值定理\n- 一元函数积分学/微积分基本定理/变限积分",
+        "rating_notes": "- 难度：★★★☆☆（3/5）；结合论证层次与计算技巧评估。\n- 重要性：★★★★☆（4/5）；结合知识基础性与迁移价值评估。\n- 考试复现概率：★★★★☆（4/5）；暂定同类题型判断，非历年统计概率。",
+        "verification": "- 对照第10周提示版第3页和讲义第6题，重写了推导步骤。\n- 已检查公式结构、边界项与定理条件。"
+      },
+      "search_text": "w10-q06\n第10周\n第6题\n积分平均与函数的最大模\n一元函数微分学/中值定理/积分中值定理\n一元函数积分学/微积分基本定理/变限积分\n积分平均与函数的最大模\n积分中值定理\n变限积分\n设$a<b$、$f\\in C^1[a,b]$，证明\n$$\\max_{[a,b]}|f(x)|\\le\\left|\\frac1{b-a}\\int_a^bf(t)dt\\right|+\\int_a^b|f'(t)|dt.$$"
+    },
+    {
+      "id": "w10-q07",
+      "week": 10,
+      "question_number": 7,
+      "title": "凸函数的中点积分估计",
+      "file": "第10周/第7题.md",
+      "sources": [
+        "作业/第10周习题-提示版.pdf",
+        "作业/第10周习题讲义.pdf"
+      ],
+      "source_pages": "提示版3；讲义5",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 3,
+        "importance": 4,
+        "exam_probability": 3,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★★☆☆",
+        "importance": "★★★★☆",
+        "exam_probability": "★★★☆☆"
+      },
+      "knowledge": [
+        "一元函数微分学/凸函数/切线不等式",
+        "一元函数积分学/定积分/对称性"
+      ],
+      "tags": [
+        "凸函数的中点积分估计",
+        "切线不等式",
+        "对称性"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "设$a>0$、$f\\in C^2[0,a]$且$f''\\ge0$，证明\n$$\\int_0^a f(x)dx\\ge a f(a/2).$$",
+        "hint": "凸性给中点切线位于函数图像下方；积分后切线的奇一次项抵消。",
+        "framework": "1. 置$m=a/2$。\n2. 由$f'$递增证明$f(x)\\ge f(m)+f'(m)(x-m)$。\n3. 在全区间积分。",
+        "solution": "由$f''\\ge0$知$f'$递增。若$x\\ge m$，积分$f'$在$[m,x]$上得\n$f(x)-f(m)\\ge f'(m)(x-m)$；若$x\\le m$，在$[x,m]$积分并利用$f'(t)\\le f'(m)$，也得到同一不等式。于是\n$$\\int_0^af(x)dx\\ge af(m)+f'(m)\\int_0^a(x-m)dx=af(m),$$\n因为$\\int_0^a(x-a/2)dx=0$。",
+        "reflection": "凸函数在中心点的切线是全局下界；对称区间使线性误差平均为零。",
+        "knowledge_notes": "- 一元函数微分学/凸函数/切线不等式\n- 一元函数积分学/定积分/对称性",
+        "rating_notes": "- 难度：★★★☆☆（3/5）；结合论证层次与计算技巧评估。\n- 重要性：★★★★☆（4/5）；结合知识基础性与迁移价值评估。\n- 考试复现概率：★★★☆☆（3/5）；暂定同类题型判断，非历年统计概率。",
+        "verification": "- 对照第10周提示版第3页和讲义第7题，重写了推导步骤。\n- 已检查公式结构、边界项与定理条件。"
+      },
+      "search_text": "w10-q07\n第10周\n第7题\n凸函数的中点积分估计\n一元函数微分学/凸函数/切线不等式\n一元函数积分学/定积分/对称性\n凸函数的中点积分估计\n切线不等式\n对称性\n设$a>0$、$f\\in C^2[0,a]$且$f''\\ge0$，证明\n$$\\int_0^a f(x)dx\\ge a f(a/2).$$"
+    },
+    {
+      "id": "w10-q08",
+      "week": 10,
+      "question_number": 8,
+      "title": "积分递推估计",
+      "file": "第10周/第8题.md",
+      "sources": [
+        "作业/第10周习题-提示版.pdf",
+        "作业/第10周习题讲义.pdf"
+      ],
+      "source_pages": "提示版3；讲义5",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 3,
+        "importance": 4,
+        "exam_probability": 3,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★★☆☆",
+        "importance": "★★★★☆",
+        "exam_probability": "★★★☆☆"
+      },
+      "knowledge": [
+        "一元函数积分学/积分不等式/递推估计"
+      ],
+      "tags": [
+        "积分递推估计",
+        "递推估计"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "设$a,b,c\\ge0,T>0$，$x_n$为$[0,T]$上非负黎曼可积函数，$x_0(t)\\equiv c$，且\n$$x_{n+1}(t)\\le a+b\\int_0^t x_n(u)du.$$\n证明对$n\\ge1$，\n$$x_n(t)\\le a\\sum_{k=0}^{n-1}\\frac{(bt)^k}{k!}+c\\frac{(bt)^n}{n!}.$$",
+        "hint": "数学归纳并逐项积分；注意$b=0$无需除以$b$。",
+        "framework": "1. 验证$n=1$。\n2. 假定$n$成立并代入递推。\n3. 积分有限和每一项。\n4. 把$a$识别为新和式的第0项。",
+        "solution": "$n=1$时，$x_1(t)\\le a+bc\\,t$，与公式一致。假设$n$时成立，则\n$$x_{n+1}(t)\\le a+b\\int_0^t\\left(a\\sum_{k=0}^{n-1}\\frac{(bu)^k}{k!}+c\\frac{(bu)^n}{n!}\\right)du.$$\n逐项积分，得\n$$x_{n+1}(t)\\le a+a\\sum_{k=0}^{n-1}\\frac{(bt)^{k+1}}{(k+1)!}+c\\frac{(bt)^{n+1}}{(n+1)!}\n=a\\sum_{k=0}^{n}\\frac{(bt)^k}{k!}+c\\frac{(bt)^{n+1}}{(n+1)!}.$$\n归纳完成；当$b=0$时同一计算成立。",
+        "reflection": "反复积分自然产生阶乘分母，呈现指数函数级数的部分和结构。",
+        "knowledge_notes": "- 一元函数积分学/积分不等式/递推估计",
+        "rating_notes": "- 难度：★★★☆☆（3/5）；结合论证层次与计算技巧评估。\n- 重要性：★★★★☆（4/5）；结合知识基础性与迁移价值评估。\n- 考试复现概率：★★★☆☆（3/5）；暂定同类题型判断，非历年统计概率。",
+        "verification": "- 对照第10周提示版第3页和讲义第8题，重写了推导步骤。\n- 已检查公式结构、边界项与定理条件。"
+      },
+      "search_text": "w10-q08\n第10周\n第8题\n积分递推估计\n一元函数积分学/积分不等式/递推估计\n积分递推估计\n递推估计\n设$a,b,c\\ge0,T>0$，$x_n$为$[0,T]$上非负黎曼可积函数，$x_0(t)\\equiv c$，且\n$$x_{n+1}(t)\\le a+b\\int_0^t x_n(u)du.$$\n证明对$n\\ge1$，\n$$x_n(t)\\le a\\sum_{k=0}^{n-1}\\frac{(bt)^k}{k!}+c\\frac{(bt)^n}{n!}.$$"
+    },
+    {
+      "id": "w10-q09",
+      "week": 10,
+      "question_number": 9,
+      "title": "Young不等式",
+      "file": "第10周/第9题.md",
+      "sources": [
+        "作业/第10周习题-提示版.pdf",
+        "作业/第10周习题讲义.pdf"
+      ],
+      "source_pages": "提示版4；讲义6-7",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 4,
+        "importance": 4,
+        "exam_probability": 4,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★★★☆",
+        "importance": "★★★★☆",
+        "exam_probability": "★★★★☆"
+      },
+      "knowledge": [
+        "一元函数积分学/积分不等式/Young不等式"
+      ],
+      "tags": [
+        "Young不等式",
+        "Young不等式"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "设$f:[0,\\infty)\\to[0,\\infty)$连续严格递增且$f(0)=0$。对$s\\ge0,t\\in f([0,\\infty))$证明\n$$\\int_0^sf(x)dx+\\int_0^tf^{-1}(y)dy\\ge st.$$\n并推出共轭指数形式$st\\le s^p/p+t^q/q$，其中$p,q>1$且$1/p+1/q=1$。",
+        "hint": "先证明曲线$f$与反函数图像在矩形中的面积恒等式，再比较$s$相对$u=f^{-1}(t)$的位置。",
+        "framework": "1. 用黎曼和证明反函数积分恒等式。\n2. 令$u=f^{-1}(t)$，拆出$s$与$u$之间的有向积分。\n3. 取$f(x)=x^{p-1}$得到幂次形式。",
+        "solution": "连续严格递增函数在$[0,u]$上可逆。取分割$0=x_0<\\cdots<x_n=u$，在$f(x_{i-1})\\le y\\le f(x_i)$上有$x_{i-1}\\le f^{-1}(y)\\le x_i$。上下和夹逼并令网格趋零，得到矩形面积拆分恒等式\n$$\\int_0^u f(x)dx+\\int_0^{f(u)}f^{-1}(y)dy=u f(u).$$\n令$u=f^{-1}(t)$。待证左边减去$st$等于\n$$\\int_0^u f+\\int_0^t f^{-1}-st=\\int_u^s(f(x)-t)dx.$$\n若$s\\ge u$，被积函数非负；若$s<u$，区间方向反转且$f(x)-t\\le0$，故积分仍非负。\n取$f(x)=x^{p-1}$，则$f^{-1}(y)=y^{1/(p-1)}=y^{q-1}$。两积分分别为$s^p/p$及$t^q/q$，得经典Young不等式。",
+        "reflection": "不需假设$f$可导；积分面积恒等式由单调反函数的夹逼黎曼和推出。",
+        "knowledge_notes": "- 一元函数积分学/积分不等式/Young不等式",
+        "rating_notes": "- 难度：★★★★☆（4/5）；结合论证层次与计算技巧评估。\n- 重要性：★★★★☆（4/5）；结合知识基础性与迁移价值评估。\n- 考试复现概率：★★★★☆（4/5）；暂定同类题型判断，非历年统计概率。",
+        "verification": "- 对照第10周提示版第4页和讲义第9题，重写了推导步骤。\n- 已检查公式结构、边界项与定理条件。"
+      },
+      "search_text": "w10-q09\n第10周\n第9题\nYoung不等式\n一元函数积分学/积分不等式/Young不等式\nYoung不等式\nYoung不等式\n设$f:[0,\\infty)\\to[0,\\infty)$连续严格递增且$f(0)=0$。对$s\\ge0,t\\in f([0,\\infty))$证明\n$$\\int_0^sf(x)dx+\\int_0^tf^{-1}(y)dy\\ge st.$$\n并推出共轭指数形式$st\\le s^p/p+t^q/q$，其中$p,q>1$且$1/p+1/q=1$。"
+    },
+    {
+      "id": "w10-q10",
+      "week": 10,
+      "question_number": 10,
+      "title": "积分插值不等式",
+      "file": "第10周/第10题.md",
+      "sources": [
+        "作业/第10周习题-提示版.pdf",
+        "作业/第10周习题讲义.pdf"
+      ],
+      "source_pages": "提示版4；讲义8",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 4,
+        "importance": 4,
+        "exam_probability": 3,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★★★☆",
+        "importance": "★★★★☆",
+        "exam_probability": "★★★☆☆"
+      },
+      "knowledge": [
+        "一元函数积分学/积分不等式/Holder不等式",
+        "数学分析基础/函数空间/范数插值"
+      ],
+      "tags": [
+        "积分插值不等式",
+        "Holder不等式",
+        "范数插值"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "设$f$在$[a,b]$黎曼可积，$1\\le p<r<q<\\infty$，且$1/r=\\theta/p+(1-\\theta)/q$，$0<\\theta<1$。证明\n$$\\|f\\|_r\\le\\|f\\|_p^\\theta\\|f\\|_q^{1-\\theta}.$$",
+        "hint": "将$|f|^r$拆成两个幂次，选Holder共轭指数使积分中出现$p$与$q$范数。",
+        "framework": "1. 写$|f|^r=(|f|^p)^{r\\theta/p}(|f|^q)^{r(1-\\theta)/q}$。\n2. 验证Holder指数$P=p/(r\\theta)$、$Q=q/(r(1-\\theta))$互为共轭。\n3. 应用Holder并取$r$次方根。",
+        "solution": "由关系式，\n$$\\frac{r\\theta}{p}+\\frac{r(1-\\theta)}q=1.$$\n因$p<r<q$，两项均在$(0,1)$，令 $P=p/(r\\theta)>1$、$Q=q/(r(1-\\theta))>1$，则$1/P+1/Q=1$。Holder给\n$$\\int_a^b|f|^r\\le\n\\left(\\int_a^b|f|^p\\right)^{1/P}\n\\left(\\int_a^b|f|^q\\right)^{1/Q}\n=\\|f\\|_p^{r\\theta}\\|f\\|_q^{r(1-\\theta)}.$$\n取$r$次方根即得结论。若某个范数为0，不需除以它：Holder本身仍适用，且连续或几乎处处意义下相应积分为0，结论直接成立。",
+        "reflection": "范数插值来自幂次分解与Holder指数匹配；零范数不能通过除法处理。",
+        "knowledge_notes": "- 一元函数积分学/积分不等式/Holder不等式\n- 数学分析基础/函数空间/范数插值",
+        "rating_notes": "- 难度：★★★★☆（4/5）；结合论证层次与计算技巧评估。\n- 重要性：★★★★☆（4/5）；结合知识基础性与迁移价值评估。\n- 考试复现概率：★★★☆☆（3/5）；暂定同类题型判断，非历年统计概率。",
+        "verification": "- 对照第10周提示版第4页和讲义第10题，重写了推导步骤。\n- 已检查公式结构、边界项与定理条件。"
+      },
+      "search_text": "w10-q10\n第10周\n第10题\n积分插值不等式\n一元函数积分学/积分不等式/Holder不等式\n数学分析基础/函数空间/范数插值\n积分插值不等式\nHolder不等式\n范数插值\n设$f$在$[a,b]$黎曼可积，$1\\le p<r<q<\\infty$，且$1/r=\\theta/p+(1-\\theta)/q$，$0<\\theta<1$。证明\n$$\\|f\\|_r\\le\\|f\\|_p^\\theta\\|f\\|_q^{1-\\theta}.$$"
+    },
+    {
+      "id": "w10-q11",
+      "week": 10,
+      "question_number": 11,
+      "title": "周期Poincaré不等式及最佳常数",
+      "file": "第10周/第11题.md",
+      "sources": [
+        "作业/第10周习题-提示版.pdf",
+        "作业/第10周习题讲义.pdf"
+      ],
+      "source_pages": "提示版5；讲义8-9",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 5,
+        "importance": 4,
+        "exam_probability": 3,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★★★★",
+        "importance": "★★★★☆",
+        "exam_probability": "★★★☆☆"
+      },
+      "knowledge": [
+        "一元函数微分学/函数不等式/Poincare不等式",
+        "一元函数微分学/函数不等式/最佳常数"
+      ],
+      "tags": [
+        "周期Poincaré不等式及最佳常数",
+        "Poincare不等式",
+        "最佳常数"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "设实值$f\\in C^1(\\mathbb R)$以1为周期且$\\int_0^1f=0$。证明$\\int_0^1f^2\\le(4\\pi^2)^{-1}\\int_0^1(f')^2$，并证明常数最佳。",
+        "hint": "先证长度$ell$区间上端点为零的Wirtinger估计，再找到相隔半周期的相等函数值。",
+        "framework": "1. 对端点零函数$v$证明$\\int v^2\\le(\\ell/\\pi)^2\\int(v')^2$。\n2. 由$h(t)=f(t+1/2)-f(t)$找$c=f(t)=f(t+1/2)$。\n3. 对两段$f-c$应用零边界估计。\n4. 用$f(x)=\\sin2\\pi x$证最佳性。",
+        "solution": "零边界估计可由在$[\\varepsilon,\\ell-\\varepsilon]$展开平方\n$(v'-k\\cot(kx)v)^2$证明，其中$k=\\pi/\\ell$。分部积分并用$\\cot^2-\\csc^2=-1$得\n$$\\int_\\varepsilon^{\\ell-\\varepsilon}((v')^2-k^2v^2)=\\int_\\varepsilon^{\\ell-\\varepsilon}(v'-k\\cot(kx)v)^2+k[\\cot(kx)v^2]_\\varepsilon^{\\ell-\\varepsilon}.$$\n因$v(0)=v(\\ell)=0$且$|v'|\\le M$，$|v(\\varepsilon)|,|v(\\ell-\\varepsilon)|\\le M\\varepsilon$，边界项趋0，令$\\varepsilon\\downarrow0$即得$\\int v^2\\le(\\ell/\\pi)^2\\int(v')^2$。\n再令$h(t)=f(t+1/2)-f(t)$，周期性给$h(1/2)=-h(0)$，故某$t\\in[0,1/2]$有$h(t)=0$。设$c=f(t)=f(t+1/2)$，$f-c$在两个相邻半周期端点为零。两段分别用$\\ell=1/2$的估计并相加：\n$$\\int_0^1(f-c)^2\\le\\frac1{4\\pi^2}\\int_0^1(f')^2.$$\n零均值给$\\int(f-c)^2=\\int f^2+c^2\\ge\\int f^2$。最后$f=\\sin2\\pi x$使两积分比恰为$1/(4\\pi^2)$，常数最佳。",
+        "reflection": "cot端点奇异需截断后取极限；最佳常数需用等号函数验证。",
+        "knowledge_notes": "- 一元函数微分学/函数不等式/Poincare不等式\n- 一元函数微分学/函数不等式/最佳常数",
+        "rating_notes": "- 难度：★★★★★（5/5）；根据论证复杂度和技术细节评估。\n- 重要性：★★★★☆（4/5）；根据知识基础性与迁移价值评估。\n- 考试复现概率：★★★☆☆（3/5）；暂定同类题型判断，非历年统计概率。",
+        "verification": "- 对照第10周提示版第5页和讲义第11题，重写了推导步骤。\n- 已检查公式结构、边界项与定理条件。"
+      },
+      "search_text": "w10-q11\n第10周\n第11题\n周期Poincaré不等式及最佳常数\n一元函数微分学/函数不等式/Poincare不等式\n一元函数微分学/函数不等式/最佳常数\n周期Poincaré不等式及最佳常数\nPoincare不等式\n最佳常数\n设实值$f\\in C^1(\\mathbb R)$以1为周期且$\\int_0^1f=0$。证明$\\int_0^1f^2\\le(4\\pi^2)^{-1}\\int_0^1(f')^2$，并证明常数最佳。"
+    },
+    {
+      "id": "w10-q12",
+      "week": 10,
+      "question_number": 12,
+      "title": "一维Morrey不等式",
+      "file": "第10周/第12题.md",
+      "sources": [
+        "作业/第10周习题-提示版.pdf",
+        "作业/第10周习题讲义.pdf"
+      ],
+      "source_pages": "提示版6；讲义10",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 3,
+        "importance": 4,
+        "exam_probability": 3,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★★☆☆",
+        "importance": "★★★★☆",
+        "exam_probability": "★★★☆☆"
+      },
+      "knowledge": [
+        "一元函数微分学/函数不等式/Morrey不等式",
+        "数学分析基础/Holder不等式/积分估计"
+      ],
+      "tags": [
+        "一维Morrey不等式",
+        "Morrey不等式",
+        "积分估计"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "设$u\\in C^1[a,b]$、$1<p<\\infty$，$\\beta=1-1/p$。证明对$0<\\alpha\\le\\beta$及$x,y\\in[a,b]$，$|u(x)-u(y)|\\le(b-a)^{\\beta-\\alpha}\\|u'\\|_p|x-y|^\\alpha$，并说明$\\alpha=\\beta,\\|u'\\|_p=1$时常数1不依赖区间。",
+        "hint": "先由Holder得到$\beta$次幂，再用区间直径降低指数。",
+        "framework": "1. 不妨$x<y$，写差为导数积分。\n2. Holder估计积分。\n3. 分拆距离的幂次并用$|x-y|\\le b-a$。",
+        "solution": "不妨$x<y$。由微积分基本定理和Holder，\n$$|u(y)-u(x)|\\le\\int_x^y|u'|\n\\le\\|u'\\|_p|y-x|^{1-1/p}=\\|u'\\|_p|y-x|^\\beta.$$\n把$|x-y|^\\beta=|x-y|^\\alpha|x-y|^{\\beta-\\alpha}$，并以$|x-y|\\le b-a$控制第二因子，即得题式。$x=y$时显然成立。$\\alpha=\\beta$时长度因子为1，若$\\|u'\\|_p=1$常数不随区间变化。",
+        "reflection": "Holder首先给出自然Holder指数；更小指数由区间直径补偿。",
+        "knowledge_notes": "- 一元函数微分学/函数不等式/Morrey不等式\n- 数学分析基础/Holder不等式/积分估计",
+        "rating_notes": "- 难度：★★★☆☆（3/5）；根据论证复杂度和技术细节评估。\n- 重要性：★★★★☆（4/5）；根据知识基础性与迁移价值评估。\n- 考试复现概率：★★★☆☆（3/5）；暂定同类题型判断，非历年统计概率。",
+        "verification": "- 对照第10周提示版第6页和讲义第12题，重写了推导步骤。\n- 已检查公式结构、边界项与定理条件。"
+      },
+      "search_text": "w10-q12\n第10周\n第12题\n一维Morrey不等式\n一元函数微分学/函数不等式/Morrey不等式\n数学分析基础/Holder不等式/积分估计\n一维Morrey不等式\nMorrey不等式\n积分估计\n设$u\\in C^1[a,b]$、$1<p<\\infty$，$\\beta=1-1/p$。证明对$0<\\alpha\\le\\beta$及$x,y\\in[a,b]$，$|u(x)-u(y)|\\le(b-a)^{\\beta-\\alpha}\\|u'\\|_p|x-y|^\\alpha$，并说明$\\alpha=\\beta,\\|u'\\|_p=1$时常数1不依赖区间。"
+    },
+    {
+      "id": "w10-q13",
+      "week": 10,
+      "question_number": 13,
+      "title": "一维Sobolev不等式",
+      "file": "第10周/第13题.md",
+      "sources": [
+        "作业/第10周习题-提示版.pdf",
+        "作业/第10周习题讲义.pdf"
+      ],
+      "source_pages": "提示版6；讲义11",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 4,
+        "importance": 4,
+        "exam_probability": 3,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★★★☆",
+        "importance": "★★★★☆",
+        "exam_probability": "★★★☆☆"
+      },
+      "knowledge": [
+        "一元函数微分学/函数不等式/Sobolev不等式",
+        "一元函数积分学/Holder不等式/积分估计"
+      ],
+      "tags": [
+        "一维Sobolev不等式",
+        "Sobolev不等式",
+        "积分估计"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "设$u\\in C^1[a,b]$、$1\\le p<\\infty$，$L=b-a$。证明$\\|u\\|_\\infty\\le L^{-1/p}\\|u\\|_p+L^{1-1/p}\\|u'\\|_p$。",
+        "hint": "先在$|u|$最小处得到小函数值，再沿区间积分导数控制其余点。",
+        "framework": "1. 取$y$使$|u(y)|$最小，并比较$L|u(y)|^p$与$\\int|u|^p$。\n2. 对任意$x$写$u(x)-u(y)$为导数积分。\n3. 用Holder；$p=1$时直接使用L1范数。",
+        "solution": "由连续性，$|u|$在某$y$取得最小值，于是$L|u(y)|^p\\le\\int_a^b|u|^p$，故$|u(y)|\\le L^{-1/p}\\|u\\|_p$。任取$x$，\n$$|u(x)|\\le |u(y)|+\\int_a^b|u'(t)|dt.$$\n若$p>1$，Holder给$\\int|u'|\\le L^{1-1/p}\\|u'\\|_p$；若$p=1$，该积分就是$\\|u'\\|_1$。对$x$取最大即得。",
+        "reflection": "函数范数控制基准值，导数范数控制相对变化；两部分缺一不可。",
+        "knowledge_notes": "- 一元函数微分学/函数不等式/Sobolev不等式\n- 一元函数积分学/Holder不等式/积分估计",
+        "rating_notes": "- 难度：★★★★☆（4/5）；根据论证复杂度和技术细节评估。\n- 重要性：★★★★☆（4/5）；根据知识基础性与迁移价值评估。\n- 考试复现概率：★★★☆☆（3/5）；暂定同类题型判断，非历年统计概率。",
+        "verification": "- 对照第10周提示版第6页和讲义第13题，重写了推导步骤。\n- 已检查公式结构、边界项与定理条件。"
+      },
+      "search_text": "w10-q13\n第10周\n第13题\n一维Sobolev不等式\n一元函数微分学/函数不等式/Sobolev不等式\n一元函数积分学/Holder不等式/积分估计\n一维Sobolev不等式\nSobolev不等式\n积分估计\n设$u\\in C^1[a,b]$、$1\\le p<\\infty$，$L=b-a$。证明$\\|u\\|_\\infty\\le L^{-1/p}\\|u\\|_p+L^{1-1/p}\\|u'\\|_p$。"
+    },
+    {
+      "id": "w10-q14",
+      "week": 10,
+      "question_number": 14,
+      "title": "一维ABP型估计",
+      "file": "第10周/第14题.md",
+      "sources": [
+        "作业/第10周习题-提示版.pdf",
+        "作业/第10周习题讲义.pdf"
+      ],
+      "source_pages": "提示版6；讲义12",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 3,
+        "importance": 4,
+        "exam_probability": 3,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★★☆☆",
+        "importance": "★★★★☆",
+        "exam_probability": "★★★☆☆"
+      },
+      "knowledge": [
+        "一元函数微分学/函数不等式/二阶导数估计",
+        "一元函数微分学/中值定理/Lagrange中值定理"
+      ],
+      "tags": [
+        "一维ABP型估计",
+        "二阶导数估计",
+        "Lagrange中值定理"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "设$u\\in C^2[a,b]$且$u(a)=u(b)=0$。证明$\\|u\\|_\\infty\\le\\frac{b-a}{4}\\int_a^b|u''|$，并给出$\\int|u''|\\le M$时的界。",
+        "hint": "对固定点左右两段分别用中值定理，比较所获导数值并以二阶导数积分控制。",
+        "framework": "1. 对$[a,x]$、$[x,b]$用中值定理。\n2. 解出两处导数值。\n3. 用$\\int|u''|$控制导数差，并最大化二次因子。",
+        "solution": "固定$a<x<b$。存在$\\xi\\in(a,x)$、$\\eta\\in(x,b)$使$u'(\\xi)=u(x)/(x-a)$、$u'(\\eta)=-u(x)/(b-x)$。两式相加并取绝对值，\n$$|u(x)|\\left(\\frac1{x-a}+\\frac1{b-x}\\right)\n\\le|u'(\\eta)-u'(\\xi)|\\le\\int_a^b|u''(t)|dt.$$\n所以$|u(x)|\\le\\frac{(x-a)(b-x)}{b-a}\\int_a^b|u''|$。因$(x-a)(b-x)\\le(b-a)^2/4$，得结论；端点函数值为0。若积分不超过$M$，则$\\|u\\|_\\infty\\le M(b-a)/4$。",
+        "reflection": "二阶导数的积分控制左右斜率差，从而控制函数峰值。",
+        "knowledge_notes": "- 一元函数微分学/函数不等式/二阶导数估计\n- 一元函数微分学/中值定理/Lagrange中值定理",
+        "rating_notes": "- 难度：★★★☆☆（3/5）；根据论证复杂度和技术细节评估。\n- 重要性：★★★★☆（4/5）；根据知识基础性与迁移价值评估。\n- 考试复现概率：★★★☆☆（3/5）；暂定同类题型判断，非历年统计概率。",
+        "verification": "- 对照第10周提示版第6页和讲义第14题，重写了推导步骤。\n- 已检查公式结构、边界项与定理条件。"
+      },
+      "search_text": "w10-q14\n第10周\n第14题\n一维ABP型估计\n一元函数微分学/函数不等式/二阶导数估计\n一元函数微分学/中值定理/Lagrange中值定理\n一维ABP型估计\n二阶导数估计\nLagrange中值定理\n设$u\\in C^2[a,b]$且$u(a)=u(b)=0$。证明$\\|u\\|_\\infty\\le\\frac{b-a}{4}\\int_a^b|u''|$，并给出$\\int|u''|\\le M$时的界。"
+    },
+    {
+      "id": "w10-q15",
+      "week": 10,
+      "question_number": 15,
+      "title": "绝对值函数的弱导数",
+      "file": "第10周/第15题.md",
+      "sources": [
+        "作业/第10周习题-提示版.pdf",
+        "作业/第10周习题讲义.pdf"
+      ],
+      "source_pages": "提示版7；讲义13",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 4,
+        "importance": 4,
+        "exam_probability": 3,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★★★☆",
+        "importance": "★★★★☆",
+        "exam_probability": "★★★☆☆"
+      },
+      "knowledge": [
+        "一元函数微分学/弱导数/测试函数定义",
+        "数学分析基础/黎曼积分/有限点修改"
+      ],
+      "tags": [
+        "绝对值函数的弱导数",
+        "测试函数定义",
+        "有限点修改"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "令$f(x)=|x|$。证明对任意$h\\in\\mathbb R$，函数$g_h(x)=1(x>0),h(x=0),-1(x<0)$都是$f$的弱导数，即对所有$\\phi\\in C_c^\\infty$有$\\int f\\phi'=-\\int g_h\\phi$。",
+        "hint": "将积分拆到原点左右分别分部积分，原点边界项因乘$x$而消失；单点值不影响积分。",
+        "framework": "1. 取$R$使测试函数支集在$(-R,R)$内。\n2. 分拆负半轴和正半轴。\n3. 分别分部积分并相加。\n4. 利用有限点改值不改变黎曼积分。",
+        "solution": "取$R$使$\\phi(\\pm R)=0$。有\n$$\\int_{-R}^R|x|\\phi'(x)dx\n=\\int_{-R}^0(-x)\\phi'(x)dx+\\int_0^Rx\\phi'(x)dx\n=\\int_{-R}^0\\phi(x)dx-\\int_0^R\\phi(x)dx.$$\n这恰为$-\\int_{-R}^Rg_h(x)\\phi(x)dx$，因为负半轴$g_h=-1$、正半轴$g_h=1$。$g_h(0)$只在一个点取值，与$h$无关地不改变黎曼积分，所以所有$h$均满足弱导数定义。",
+        "reflection": "经典导数在原点不存在，但弱导数只看积分；单点值不可辨识。",
+        "knowledge_notes": "- 一元函数微分学/弱导数/测试函数定义\n- 数学分析基础/黎曼积分/有限点修改",
+        "rating_notes": "- 难度：★★★★☆（4/5）；根据论证复杂度和技术细节评估。\n- 重要性：★★★★☆（4/5）；根据知识基础性与迁移价值评估。\n- 考试复现概率：★★★☆☆（3/5）；暂定同类题型判断，非历年统计概率。",
+        "verification": "- 对照第10周提示版第7页和讲义第15题，重写了推导步骤。\n- 已检查公式结构、边界项与定理条件。"
+      },
+      "search_text": "w10-q15\n第10周\n第15题\n绝对值函数的弱导数\n一元函数微分学/弱导数/测试函数定义\n数学分析基础/黎曼积分/有限点修改\n绝对值函数的弱导数\n测试函数定义\n有限点修改\n令$f(x)=|x|$。证明对任意$h\\in\\mathbb R$，函数$g_h(x)=1(x>0),h(x=0),-1(x<0)$都是$f$的弱导数，即对所有$\\phi\\in C_c^\\infty$有$\\int f\\phi'=-\\int g_h\\phi$。"
+    },
+    {
+      "id": "w10-q16",
+      "week": 10,
+      "question_number": 16,
+      "title": "总变差与Jordan分解",
+      "file": "第10周/第16题.md",
+      "sources": [
+        "作业/第10周习题-提示版.pdf",
+        "作业/第10周习题讲义.pdf"
+      ],
+      "source_pages": "提示版7；讲义14",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 4,
+        "importance": 4,
+        "exam_probability": 3,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★★★☆",
+        "importance": "★★★★☆",
+        "exam_probability": "★★★☆☆"
+      },
+      "knowledge": [
+        "一元函数微分学/有界变差/总变差函数",
+        "数学分析基础/函数分解/Jordan分解"
+      ],
+      "tags": [
+        "总变差与Jordan分解",
+        "总变差函数",
+        "Jordan分解"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "设$a<b$、$f:[a,b]\\to\\mathbb R$有界变差。令$V(x)=\\operatorname{Var}_{[a,x]}(f)$，$V(a)=0$。证明$f$是两个单调不减函数之差。",
+        "hint": "证明$V$的增量不小于$f$的增量绝对值，再取$(Vpm f)/2$。",
+        "framework": "1. 确认$V(x)$有限。\n2. 近似达到$V(x)$的分割末尾添上$y$。\n3. 得$V(y)-V(x)\\ge|f(y)-f(x)|$。\n4. 验证两构造函数单调。",
+        "solution": "固定$x<y$。若$x>a$，取$[a,x]$上的分割，使变差$>V(x)-\\varepsilon$，末尾添上$y$，便有$V(y)\\ge V(x)-\\varepsilon+|f(y)-f(x)|$。令$\\varepsilon\\downarrow0$；$x=a$时直接取分割$\\{a,y\\}$。于是\n$$V(y)-V(x)\\ge|f(y)-f(x)|.$$\n定义$p=(V+f-f(a))/2$、$q=(V-f+f(a))/2$。则$p(y)-p(x)=[V(y)-V(x)+f(y)-f(x)]/2\\ge0$，同理$q(y)-q(x)\\ge0$。并且$f=f(a)+p-q$，常数可并入其中一个单调函数，因此为两个单调不减函数之差。",
+        "reflection": "总变差同时容纳函数向上与向下的变化；加减函数增量便分离出两种单调部分。",
+        "knowledge_notes": "- 一元函数微分学/有界变差/总变差函数\n- 数学分析基础/函数分解/Jordan分解",
+        "rating_notes": "- 难度：★★★★☆（4/5）；结合证明层次和技术难度评估。\n- 重要性：★★★★☆（4/5）；结合知识基础性和迁移价值评估。\n- 考试复现概率：★★★☆☆（3/5）；暂定同类题型判断，非历年统计概率。",
+        "verification": "- 对照第10周提示版第7页和讲义第16题，重写了关键证明步骤。\n- 已检查端点、有限和恒等式及极限条件。"
+      },
+      "search_text": "w10-q16\n第10周\n第16题\n总变差与Jordan分解\n一元函数微分学/有界变差/总变差函数\n数学分析基础/函数分解/Jordan分解\n总变差与Jordan分解\n总变差函数\nJordan分解\n设$a<b$、$f:[a,b]\\to\\mathbb R$有界变差。令$V(x)=\\operatorname{Var}_{[a,x]}(f)$，$V(a)=0$。证明$f$是两个单调不减函数之差。"
+    },
+    {
+      "id": "w10-q17",
+      "week": 10,
+      "question_number": 17,
+      "title": "Riemann–Stieltjes积分的存在性",
+      "file": "第10周/第17题.md",
+      "sources": [
+        "作业/第10周习题-提示版.pdf",
+        "作业/第10周习题讲义.pdf"
+      ],
+      "source_pages": "提示版8；讲义15",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 5,
+        "importance": 4,
+        "exam_probability": 2,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★★★★",
+        "importance": "★★★★☆",
+        "exam_probability": "★★☆☆☆"
+      },
+      "knowledge": [
+        "一元函数积分学/Riemann-Stieltjes积分/存在判别",
+        "一元函数连续性/一致连续/模连续"
+      ],
+      "tags": [
+        "Riemann–Stieltjes积分的存在性",
+        "存在判别",
+        "模连续"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "设$f,g:[a,b]\\to\\mathbb R$，$f$连续、$g$有界变差。证明$\\int_a^bf\\,dg$存在。",
+        "hint": "用$f$的一致连续模控制加细分割和的变化，用$g$总变差提供统一总量界。",
+        "framework": "1. 记$M=\\operatorname{Var}(g)$及连续模$\\omega_f$。\n2. 比较划分和与其共同加细和。\n3. 用共同加细比较任意两个细划分。\n4. Cauchy准则给出唯一极限。",
+        "solution": "连续$f$在紧区间上一致连续，故$\\omega_f(\\delta)\\to0$。若$R$加细$P$，把每个$g$增量拆成$R$上的增量；新旧标记点在同一个$P$小区间，故函数值差至多$\\omega_f(|P|)$。因此\n$$|S_P-S_R|\\le\\omega_f(|P|)\\sum_R|\\Delta g|\\le M\\omega_f(|P|).$$\n任意$P,Q$取共同加细$R$，从而\n$$|S_P-S_Q|\\le M(\\omega_f(|P|)+\\omega_f(|Q|))\\to0.$$\n故所有网格趋零的带标记和构成Cauchy族。取一列网格趋零的和，由实数完备性收敛到$I$；上述统一比较保证任意分割及标记的和都趋于同一$I$，故Riemann–Stieltjes积分存在。",
+        "reflection": "$g$不必单调；总变差控制每个小增量绝对值之和，连续性则让$f$在小区间内振荡很小。",
+        "knowledge_notes": "- 一元函数积分学/Riemann-Stieltjes积分/存在判别\n- 一元函数连续性/一致连续/模连续",
+        "rating_notes": "- 难度：★★★★★（5/5）；结合证明层次和技术难度评估。\n- 重要性：★★★★☆（4/5）；结合知识基础性和迁移价值评估。\n- 考试复现概率：★★☆☆☆（2/5）；暂定同类题型判断，非历年统计概率。",
+        "verification": "- 对照第10周提示版第8页和讲义第17题，重写了关键证明步骤。\n- 已检查端点、有限和恒等式及极限条件。"
+      },
+      "search_text": "w10-q17\n第10周\n第17题\nRiemann–Stieltjes积分的存在性\n一元函数积分学/Riemann-Stieltjes积分/存在判别\n一元函数连续性/一致连续/模连续\nRiemann–Stieltjes积分的存在性\n存在判别\n模连续\n设$f,g:[a,b]\\to\\mathbb R$，$f$连续、$g$有界变差。证明$\\int_a^bf\\,dg$存在。"
+    },
+    {
+      "id": "w10-q18",
+      "week": 10,
+      "question_number": 18,
+      "title": "Riemann–Stieltjes分部积分",
+      "file": "第10周/第18题.md",
+      "sources": [
+        "作业/第10周习题-提示版.pdf",
+        "作业/第10周习题讲义.pdf"
+      ],
+      "source_pages": "提示版8；讲义16",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 5,
+        "importance": 4,
+        "exam_probability": 2,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★★★★",
+        "importance": "★★★★☆",
+        "exam_probability": "★★☆☆☆"
+      },
+      "knowledge": [
+        "一元函数积分学/Riemann-Stieltjes积分/分部积分"
+      ],
+      "tags": [
+        "Riemann–Stieltjes分部积分",
+        "分部积分"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "设$\\int_a^bf\\,dg$存在。证明$\\int_a^bg\\,df$也存在，并证明二者之和等于$f(b)g(b)-f(a)g(a)$。",
+        "hint": "从任意$g,df$和构造加细的$f,dg$和，有限和逐段满足端点乘积恒等式。",
+        "framework": "1. 对原划分每段$[l,r]$及标记$\\xi$。\n2. 将区间在$\\xi$处切开，构造$f\\,dg$的标记和。\n3. 加上原$g\\,df$项，化为$ f(r)g(r)-f(l)g(l)$。\n4. 求和并令网格趋零。",
+        "solution": "对一段$[l,r]$、标记$\\xi$，构造细分后的$f\\,dg$和\n$$A=f(l)(g(\\xi)-g(l))+f(r)(g(r)-g(\\xi)),$$\n并令$B=g(\\xi)(f(r)-f(l))$，它是原$g\\,df$这一段。展开可直接验证\n$$A+B=f(r)g(r)-f(l)g(l).$$\n对所有区间求和，右侧望远镜为$f(b)g(b)-f(a)g(a)$。新分割的网格不超过旧分割网格。已知$f\\,dg$的所有细分标记和趋于积分$I$，故原$g\\,df$和趋于端点差减$I$，且与标记选择无关。因此第二个积分存在，且公式成立。标记在端点时删去零长度段即可。",
+        "reflection": "先从有限分割恒等式出发，极限过程同时证明另一个积分存在；无需预设两边均存在。",
+        "knowledge_notes": "- 一元函数积分学/Riemann-Stieltjes积分/分部积分",
+        "rating_notes": "- 难度：★★★★★（5/5）；结合证明层次和技术难度评估。\n- 重要性：★★★★☆（4/5）；结合知识基础性和迁移价值评估。\n- 考试复现概率：★★☆☆☆（2/5）；暂定同类题型判断，非历年统计概率。",
+        "verification": "- 对照第10周提示版第8页和讲义第18题，重写了关键证明步骤。\n- 已检查端点、有限和恒等式及极限条件。"
+      },
+      "search_text": "w10-q18\n第10周\n第18题\nRiemann–Stieltjes分部积分\n一元函数积分学/Riemann-Stieltjes积分/分部积分\nRiemann–Stieltjes分部积分\n分部积分\n设$\\int_a^bf\\,dg$存在。证明$\\int_a^bg\\,df$也存在，并证明二者之和等于$f(b)g(b)-f(a)g(a)$。"
+    },
+    {
+      "id": "w10-q19",
+      "week": 10,
+      "question_number": 19,
+      "title": "用积分证明π是无理数",
+      "file": "第10周/第19题.md",
+      "sources": [
+        "作业/第10周习题-提示版.pdf",
+        "作业/第10周习题讲义.pdf"
+      ],
+      "source_pages": "提示版9；讲义18-19",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 5,
+        "importance": 4,
+        "exam_probability": 2,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★★★★",
+        "importance": "★★★★☆",
+        "exam_probability": "★★☆☆☆"
+      },
+      "knowledge": [
+        "数学分析基础/数论证明/反证法",
+        "一元函数微分学/Taylor公式/整数导数构造",
+        "一元函数积分学/定积分/积分估计"
+      ],
+      "tags": [
+        "用积分证明π是无理数",
+        "反证法",
+        "整数导数构造",
+        "积分估计"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "对正整数$n$定义$F_n(x)=x^n(\\pi-x)^n/n!$、$I_n=\\int_0^\\pi F_n(x)\\sin x\\,dx$。证明：(1)$0<I_n\\le2(\\pi^2/4)^n/n!$；(2)令$G_n=\\sum_{k=0}^n(-1)^kF_n^{(2k)}$，证明$G_n''+G_n=F_n$且$I_n=G_n(\\pi)+G_n(0)$；(3)若$\\pi=p/q$既约，证明$q^{2n}I_n$为整数；(4)推出$\\pi$无理。",
+        "hint": "积分正性与上界给趋零；交错导数和把积分变为端点整数，构造正整数趋零矛盾。",
+        "framework": "1. 用$x(\\pi-x)\\le\\pi^2/4$估积分。\n2. 计算$G_n''+G_n$的相消，并对$(G_n'\\sin x-G_n\\cos x)'$积分。\n3. 展开多项式检查有理$\\pi$时端点导数整数性。\n4. 将积分上界乘$q^{2n}$，验证趋零。",
+        "solution": "(1) 被积函数在$(0,\\pi)$严格正。又$x(\\pi-x)\\le\\pi^2/4$，故$F_n\\le(\\pi^2/4)^n/n!$，乘以$\\int_0^\\pi\\sin xdx=2$即得。\n(2) 因$F_n$次数$2n$，$G_n''+G_n$中相邻偶数阶导数交替抵消，只余$F_n$。并且\n$$(G_n'\\sin x-G_n\\cos x)'=(G_n''+G_n)\\sin x.$$\n从0到$\\pi$积分，利用$\\cos0=1,\\cos\\pi=-1$及端点正弦为0，得$I_n=G_n(\\pi)+G_n(0)$。\n(3) 展开\n$$F_n(x)=\\sum_{j=0}^n(-1)^j{n\\choose j}\\frac{\\pi^{n-j}}{n!}x^{n+j}.$$\n在0处只有阶数$n+j$的导数非零，其值乘$q^{2n}$为\n$(-1)^j{n\\choose j}(n+j)!/n!\\,p^{n-j}q^{n+j}$，是整数。由$F_n(\\pi-x)=F_n(x)$可得偶数阶导数在0与$\\pi$相同，故$q^{2n}I_n$是整数。\n(4) 若$\\pi=p/q$，则\n$$0<q^{2n}I_n\\le2\\frac{(p^2/4)^n}{n!}\\to0,$$\n因为右侧相邻项之比$p^2/[4(n+1)]\\to0$。正整数不可能趋于0，矛盾。",
+        "reflection": "关键是整数化后的积分而非原积分趋零；正性保证整数严格大于0。",
+        "knowledge_notes": "- 数学分析基础/数论证明/反证法\n- 一元函数微分学/Taylor公式/整数导数构造\n- 一元函数积分学/定积分/积分估计",
+        "rating_notes": "- 难度：★★★★★（5/5）；结合证明层次和技术难度评估。\n- 重要性：★★★★☆（4/5）；结合知识基础性和迁移价值评估。\n- 考试复现概率：★★☆☆☆（2/5）；暂定同类题型判断，非历年统计概率。",
+        "verification": "- 对照第10周提示版第9页和讲义第19题，重写了关键证明步骤。\n- 已检查端点、有限和恒等式及极限条件。"
+      },
+      "search_text": "w10-q19\n第10周\n第19题\n用积分证明π是无理数\n数学分析基础/数论证明/反证法\n一元函数微分学/Taylor公式/整数导数构造\n一元函数积分学/定积分/积分估计\n用积分证明π是无理数\n反证法\n整数导数构造\n积分估计\n对正整数$n$定义$F_n(x)=x^n(\\pi-x)^n/n!$、$I_n=\\int_0^\\pi F_n(x)\\sin x\\,dx$。证明：(1)$0<I_n\\le2(\\pi^2/4)^n/n!$；(2)令$G_n=\\sum_{k=0}^n(-1)^kF_n^{(2k)}$，证明$G_n''+G_n=F_n$且$I_n=G_n(\\pi)+G_n(0)$；(3)若$\\pi=p/q$既约，证明$q^{2n}I_n$为整数；(4)推出$\\pi$无理。"
+    },
+    {
+      "id": "w10-q20",
+      "week": 10,
+      "question_number": 20,
+      "title": "平面参数曲线的弧长",
+      "file": "第10周/第20题.md",
+      "sources": [
+        "作业/第10周习题-提示版.pdf",
+        "作业/第10周习题讲义.pdf"
+      ],
+      "source_pages": "提示版9；讲义20-22",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 5,
+        "importance": 4,
+        "exam_probability": 3,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★★★★",
+        "importance": "★★★★☆",
+        "exam_probability": "★★★☆☆"
+      },
+      "knowledge": [
+        "一元函数微分学/曲线与弧长/弧长公式",
+        "数学分析基础/一致连续性/振荡函数"
+      ],
+      "tags": [
+        "平面参数曲线的弧长",
+        "弧长公式",
+        "振荡函数"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "设$\\gamma:[a,b]\\to\\mathbb R^2$连续，弧长是所有折线长度上确界。(1)证明$\\gamma\\in C^1$时$L=\\int_a^b|\\gamma'|$；(2)构造处处可微但不可求长的连续曲线；(3)求$\\gamma(t)=(t-\\sin t,1-\\cos t)$在$[0,2\\pi]$上一拱长度。",
+        "hint": "(1)分别证明弦长和速度积分互相控制；(2)用连续但高频振荡函数；(3)求速度。",
+        "framework": "1. 向量积分三角不等式给上界。\n2. $\\gamma'$一致连续使小弦与局部速度积分接近，给反向不等式。\n3. 用$t^2\\sin(1/t^2)$的交替峰构造无限折线长度。\n4. 化简摆线速度并积分。",
+        "solution": "(1) 对任意$u<v$，$|\\gamma(v)-\\gamma(u)|=|\\int_u^v\\gamma'|\\le\\int_u^v|\\gamma'|$，逐段求和得$L\\le\\int|\\gamma'|$。反向设$\\omega(\\delta)=\\sup_{|s-t|\\le\\delta}|\\gamma'(s)-\\gamma'(t)|$，由一致连续性$\\omega(\\delta)\\to0$。对$[u,v]$取左端点，$\\Delta=v-u$，则\n$$|\\gamma(v)-\\gamma(u)-\\gamma'(u)\\Delta|\\le\\omega(\\Delta)\\Delta,$$\n且$\\left|\\int_u^v|\\gamma'(t)|dt-|\\gamma'(u)|\\Delta\\right|\\le\\omega(\\Delta)\\Delta$。故弦长至少为该段速度积分减$2\\omega(|P|)\\Delta$。对网格为$|P|$的分割求和得$L\\ge\\int_a^b|\\gamma'|-2\\omega(|P|)(b-a)$，令网格趋零即得反向不等式。\n(2) 令$h(0)=0$、$h(t)=t^2\\sin(1/t^2)$，$\\gamma=(t,h(t))$。因$|h(t)/t|\\le t$，原点导数存在为0，其他点可微。取$t_k=(\\pi/2+k\\pi)^{-1/2}$，$h(t_k)=(-1)^k/(\\pi/2+k\\pi)$。相邻纵坐标差绝对值与$1/k$同阶，和发散；按递减顺序将$t_k$加入分割，折线长度至少为纵向变化总和，所以曲线不可求长。\n(3) $\\gamma'=(1-\\cos t,\\sin t)$，$|\\gamma'|=\\sqrt{2-2\\cos t}=2|\\sin(t/2)|$。在给定区间正弦非负，长度为$\\int_0^{2\\pi}2\\sin(t/2)dt=8$。",
+        "reflection": "连续可微才保证经典弧长公式；处处可微仍可能因无限振荡而有无限变差。",
+        "knowledge_notes": "- 一元函数微分学/曲线与弧长/弧长公式\n- 数学分析基础/一致连续性/振荡函数",
+        "rating_notes": "- 难度：★★★★★（5/5）；结合证明层次和技术难度评估。\n- 重要性：★★★★☆（4/5）；结合知识基础性和迁移价值评估。\n- 考试复现概率：★★★☆☆（3/5）；暂定同类题型判断，非历年统计概率。",
+        "verification": "- 对照第10周提示版第9页和讲义第20题，重写了关键证明步骤。\n- 已检查端点、有限和恒等式及极限条件。"
+      },
+      "search_text": "w10-q20\n第10周\n第20题\n平面参数曲线的弧长\n一元函数微分学/曲线与弧长/弧长公式\n数学分析基础/一致连续性/振荡函数\n平面参数曲线的弧长\n弧长公式\n振荡函数\n设$\\gamma:[a,b]\\to\\mathbb R^2$连续，弧长是所有折线长度上确界。(1)证明$\\gamma\\in C^1$时$L=\\int_a^b|\\gamma'|$；(2)构造处处可微但不可求长的连续曲线；(3)求$\\gamma(t)=(t-\\sin t,1-\\cos t)$在$[0,2\\pi]$上一拱长度。"
+    },
+    {
+      "id": "w11-q01",
+      "week": 11,
+      "question_number": 1,
+      "title": "反常积分的敛散性",
+      "file": "第11周/第1题.md",
+      "sources": [
+        "作业/第11周习题-提示版.pdf",
+        "作业/第11周习题讲义.pdf"
+      ],
+      "source_pages": "提示版1；讲义2-3",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 4,
+        "importance": 5,
+        "exam_probability": 4,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，具体理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★★★☆",
+        "importance": "★★★★★",
+        "exam_probability": "★★★★☆"
+      },
+      "knowledge": [
+        "一元函数积分学/反常积分/比较判别法",
+        "一元函数积分学/反常积分/Dirichlet判别法",
+        "一元函数积分学/反常积分/端点判别"
+      ],
+      "tags": [
+        "反常积分的敛散性",
+        "比较判别法",
+        "Dirichlet判别法",
+        "端点判别"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "讨论(1) $\\int_0^1\\frac{\\ln x}{x^2-1}dx$；(2) $\\int_0^{\\pi/2}\\frac{1-\\cos x}{x^p}dx$；(3) $\\int_0^1|\\ln x|^pdx$；(4) $\\int_0^1x^{p-1}(1-x)^{q-1}dx$；(5) $\\int_0^\\infty\\frac{\\ln(1+x)}{x^p}dx$；(6) $\\int_0^\\infty x^{p-1}e^{-x}dx$；(7) $\\int_2^\\infty\\frac{dx}{x^p(\\ln x)^q}$；(8) $\\int_0^1x^{-p}\\cos(1/x^2)dx$何时收敛。",
+        "hint": "逐端点化为幂函数积分。第(8)问用$t=x^{-2}$换元，再分p<3和p≥3。",
+        "framework": "1. 列出每个奇点并分段。\n2. 用零点模型$\\int_0x^\\alpha$和无穷端模型$\\int_1^\\infty x^\\alpha$。\n3. 处理对数临界情形。\n4. 第(8)问保留振荡因子，使用Dirichlet与Cauchy准则。",
+        "solution": "(1) $x\\to0$时被积函数$\\sim-\\ln x$可积；$x\\to1$时极限为$1/2$，故收敛。\n(2) $1-\\cos x\\sim x^2/2$，同$x^{2-p}$，当且仅当$p<3$。\n(3) 令$t=-\\ln x$，化为$\\int_0^\\infty t^pe^{-t}dt$。零端要求$p>-1$，无穷端指数衰减总可积，故$p>-1$。\n(4) 零端要求$p>0$，1端要求$q>0$，故二者同时成立。\n(5) 零端同$x^{1-p}$，要求$p<2$；无穷端$p>1$时对数慢于任意正幂而收敛，$p\\le1$发散。故$1<p<2$。\n(6) 零端要求$p>0$；无穷端指数衰减总可积，故$p>0$。\n(7) $p>1$收敛，$p<1$发散；临界$p=1$令$t=\\ln x$，等价于$\\int t^{-q}dt$，要求$q>1$。答案$p>1$或$p=1,q>1$。\n(8) 令$t=x^{-2}$，得到$\\frac12\\int_1^\\infty t^{(p-3)/2}\\cos t\\,dt$。若$p<3$，权重单调趋零，且余弦原函数有界，Dirichlet判别收敛。若$p\\ge3$，权重不减且至少为1，在$[2k\\pi,2k\\pi+\\pi/3]$上每段积分有统一正下界，违反Cauchy准则，故发散。",
+        "reflection": "零点与无穷端的幂判别方向相反。振荡积分不能只由振幅判断；第(8)问在p<3为条件收敛。",
+        "knowledge_notes": "- 一元函数积分学/反常积分/比较判别法\n- 一元函数积分学/反常积分/Dirichlet判别法\n- 一元函数积分学/反常积分/端点判别",
+        "rating_notes": "- 难度：★★★★☆（4/5）；结合端点分析及证明复杂度评估。\n- 重要性：★★★★★（5/5）；结合课程基础性与方法迁移价值评估。\n- 考试复现概率：★★★★☆（4/5）；暂定同类题型判断，非历年统计概率。",
+        "verification": "- 对照第11周提示版第1页及讲义第1题，重新整理证明。\n- 已检查端点条件、估计方向与判别法适用性。"
+      },
+      "search_text": "w11-q01\n第11周\n第1题\n反常积分的敛散性\n一元函数积分学/反常积分/比较判别法\n一元函数积分学/反常积分/Dirichlet判别法\n一元函数积分学/反常积分/端点判别\n反常积分的敛散性\n比较判别法\nDirichlet判别法\n端点判别\n讨论(1) $\\int_0^1\\frac{\\ln x}{x^2-1}dx$；(2) $\\int_0^{\\pi/2}\\frac{1-\\cos x}{x^p}dx$；(3) $\\int_0^1|\\ln x|^pdx$；(4) $\\int_0^1x^{p-1}(1-x)^{q-1}dx$；(5) $\\int_0^\\infty\\frac{\\ln(1+x)}{x^p}dx$；(6) $\\int_0^\\infty x^{p-1}e^{-x}dx$；(7) $\\int_2^\\infty\\frac{dx}{x^p(\\ln x)^q}$；(8) $\\int_0^1x^{-p}\\cos(1/x^2)dx$何时收敛。"
+    },
+    {
+      "id": "w11-q02",
+      "week": 11,
+      "question_number": 2,
+      "title": "对数级数的收敛范围",
+      "file": "第11周/第2题.md",
+      "sources": [
+        "作业/第11周习题-提示版.pdf",
+        "作业/第11周习题讲义.pdf"
+      ],
+      "source_pages": "提示版2；讲义4",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 2,
+        "importance": 4,
+        "exam_probability": 4,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，具体理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★☆☆☆",
+        "importance": "★★★★☆",
+        "exam_probability": "★★★★☆"
+      },
+      "knowledge": [
+        "数列与级数/正项级数/积分判别法",
+        "数列与级数/正项级数/Cauchy凝聚判别法"
+      ],
+      "tags": [
+        "对数级数的收敛范围",
+        "积分判别法",
+        "Cauchy凝聚判别法"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "求$p>0$中使$\\sum_{n=2}^\\infty1/[n(\\ln n)^p]$收敛的参数。",
+        "hint": "积分判别并令$t=ln x$；或用Cauchy凝聚化为p级数。",
+        "framework": "1. 验证正项函数最终递减。\n2. 积分换元$t=\\ln x$。\n3. 判定$\\int t^{-p}dt$。",
+        "solution": "令$f(x)=1/[x(\\ln x)^p]$。其对数导数$-1/x-p/(x\\ln x)<0$，故正且递减。积分判别并令$t=\\ln x$：\n$$\\int_2^\\infty\\frac{dx}{x(\\ln x)^p}=\\int_{\\ln2}^\\infty t^{-p}dt,$$\n恰在$p>1$收敛。故级数收敛当且仅当$p>1$。",
+        "reflection": "对数临界p级数是常见的临界收敛模型。",
+        "knowledge_notes": "- 数列与级数/正项级数/积分判别法\n- 数列与级数/正项级数/Cauchy凝聚判别法",
+        "rating_notes": "- 难度：★★☆☆☆（2/5）；结合端点分析及证明复杂度评估。\n- 重要性：★★★★☆（4/5）；结合课程基础性与方法迁移价值评估。\n- 考试复现概率：★★★★☆（4/5）；暂定同类题型判断，非历年统计概率。",
+        "verification": "- 对照第11周提示版第1页及讲义第2题，重新整理证明。\n- 已检查端点条件、估计方向与判别法适用性。"
+      },
+      "search_text": "w11-q02\n第11周\n第2题\n对数级数的收敛范围\n数列与级数/正项级数/积分判别法\n数列与级数/正项级数/Cauchy凝聚判别法\n对数级数的收敛范围\n积分判别法\nCauchy凝聚判别法\n求$p>0$中使$\\sum_{n=2}^\\infty1/[n(\\ln n)^p]$收敛的参数。"
+    },
+    {
+      "id": "w11-q03",
+      "week": 11,
+      "question_number": 3,
+      "title": "正弦反常积分",
+      "file": "第11周/第3题.md",
+      "sources": [
+        "作业/第11周习题-提示版.pdf",
+        "作业/第11周习题讲义.pdf"
+      ],
+      "source_pages": "提示版2；讲义4-5",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 4,
+        "importance": 4,
+        "exam_probability": 4,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，具体理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★★★☆",
+        "importance": "★★★★☆",
+        "exam_probability": "★★★★☆"
+      },
+      "knowledge": [
+        "一元函数积分学/反常积分/Dirichlet判别法",
+        "一元函数积分学/反常积分/绝对与条件收敛"
+      ],
+      "tags": [
+        "正弦反常积分",
+        "Dirichlet判别法",
+        "绝对与条件收敛"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "设$p>0$，判断$\\int_1^\\infty\\sin x/x^pdx$是绝对收敛、条件收敛还是发散。",
+        "hint": "振荡原函数有界且$x^{-p}\to0$，Dirichlet先得收敛；绝对收敛另按半周期比较。",
+        "framework": "1. 对$\\int\\sin x$验证有界原函数。\n2. 用Dirichlet判别普通收敛。\n3. $p>1$时比较绝对值积分。\n4. $p\\le1$时对半周期求绝对值积分下界。",
+        "solution": "对任意$A$，$|\\int_1^A\\sin xdx|\\le2$，而$x^{-p}$单调趋零，故所有$p>0$时原积分收敛。若$p>1$，$|\\sin x|/x^p\\le x^{-p}$，绝对收敛。若$0<p\\le1$，对每个$k\\ge1$，\n$$\\int_{k\\pi}^{(k+1)\\pi}\\frac{|\\sin x|}{x^p}dx\\ge\\frac2{((k+1)\\pi)^p},$$\n右侧按$k$求和发散，故不绝对收敛。因此$p>1$绝对收敛，$0<p\\le1$条件收敛，无发散情形。",
+        "reflection": "普通收敛依赖正负抵消，绝对收敛不享受振荡抵消。",
+        "knowledge_notes": "- 一元函数积分学/反常积分/Dirichlet判别法\n- 一元函数积分学/反常积分/绝对与条件收敛",
+        "rating_notes": "- 难度：★★★★☆（4/5）；结合端点分析及证明复杂度评估。\n- 重要性：★★★★☆（4/5）；结合课程基础性与方法迁移价值评估。\n- 考试复现概率：★★★★☆（4/5）；暂定同类题型判断，非历年统计概率。",
+        "verification": "- 对照第11周提示版第2页及讲义第3题，重新整理证明。\n- 已检查端点条件、估计方向与判别法适用性。"
+      },
+      "search_text": "w11-q03\n第11周\n第3题\n正弦反常积分\n一元函数积分学/反常积分/Dirichlet判别法\n一元函数积分学/反常积分/绝对与条件收敛\n正弦反常积分\nDirichlet判别法\n绝对与条件收敛\n设$p>0$，判断$\\int_1^\\infty\\sin x/x^pdx$是绝对收敛、条件收敛还是发散。"
+    },
+    {
+      "id": "w11-q04",
+      "week": 11,
+      "question_number": 4,
+      "title": "函数平方的可积性",
+      "file": "第11周/第4题.md",
+      "sources": [
+        "作业/第11周习题-提示版.pdf",
+        "作业/第11周习题讲义.pdf"
+      ],
+      "source_pages": "提示版3；讲义5",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 2,
+        "importance": 3,
+        "exam_probability": 3,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，具体理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★☆☆☆",
+        "importance": "★★★☆☆",
+        "exam_probability": "★★★☆☆"
+      },
+      "knowledge": [
+        "一元函数积分学/反常积分/比较判别法",
+        "函数极限与连续性/函数极限/无穷远极限"
+      ],
+      "tags": [
+        "函数平方的可积性",
+        "比较判别法",
+        "无穷远极限"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "设$f$在$[a,\\infty)$局部黎曼可积，$\\int_a^\\infty f$绝对收敛且$f(x)\\to0$。证明$\\int_a^\\infty f(x)^2dx$收敛。",
+        "hint": "尾部$|f|le1$，于是$f^2le|f|$；有限段单独处理。",
+        "framework": "1. 由极限选$A$使$|f|\\le1$。\n2. 尾部比较。\n3. $[a,A]$上复合函数平方保持黎曼可积。",
+        "solution": "取$A$使$x\\ge A$时$|f(x)|\\le1$，则$0\\le f(x)^2\\le|f(x)|$。已知$\\int_A^\\infty|f|<\\infty$，比较得尾积分收敛。有限区间上$f$黎曼可积，连续复合性质说明$f^2$也黎曼可积。因此全积分收敛。实际上只需$f$尾部有界。",
+        "reflection": "关键是尾部有界，而$f\to0$是保证有界的充分条件。",
+        "knowledge_notes": "- 一元函数积分学/反常积分/比较判别法\n- 函数极限与连续性/函数极限/无穷远极限",
+        "rating_notes": "- 难度：★★☆☆☆（2/5）；依据论证和计算复杂度评估。\n- 重要性：★★★☆☆（3/5）；依据知识基础性和迁移价值评估。\n- 考试复现概率：★★★☆☆（3/5）；暂定题型判断，非历年统计概率。",
+        "verification": "- 对照第11周提示版第3页与讲义第4题。\n- 已复核端点、比较方向及反常积分定义。"
+      },
+      "search_text": "w11-q04\n第11周\n第4题\n函数平方的可积性\n一元函数积分学/反常积分/比较判别法\n函数极限与连续性/函数极限/无穷远极限\n函数平方的可积性\n比较判别法\n无穷远极限\n设$f$在$[a,\\infty)$局部黎曼可积，$\\int_a^\\infty f$绝对收敛且$f(x)\\to0$。证明$\\int_a^\\infty f(x)^2dx$收敛。"
+    },
+    {
+      "id": "w11-q05",
+      "week": 11,
+      "question_number": 5,
+      "title": "一致连续性与无穷远极限",
+      "file": "第11周/第5题.md",
+      "sources": [
+        "作业/第11周习题-提示版.pdf",
+        "作业/第11周习题讲义.pdf"
+      ],
+      "source_pages": "提示版3；讲义5-6",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 4,
+        "importance": 4,
+        "exam_probability": 3,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，具体理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★★★☆",
+        "importance": "★★★★☆",
+        "exam_probability": "★★★☆☆"
+      },
+      "knowledge": [
+        "函数极限与连续性/一致连续性/一致连续函数极限",
+        "一元函数积分学/反常积分/Cauchy准则"
+      ],
+      "tags": [
+        "一致连续性与无穷远极限",
+        "一致连续函数极限",
+        "Cauchy准则"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "设$f:[0,\\infty)\\to\\mathbb R$一致连续且$\\int_0^\\infty f$收敛。证明$f(x)\\to0$。若仅假设$f$连续非负，结论是否仍成立？说明。",
+        "hint": "反设有不消失的高点；一致连续给出固定宽度同号区间，违反积分Cauchy准则。用窄三角峰反驳弱假设。",
+        "framework": "1. 选$x_n\\to\\infty$使$|f(x_n)|\\ge\\varepsilon_0$。\n2. 一致连续给统一$h>0$，使$[x_n,x_n+h]$上不变号且$|f|\\ge\\varepsilon_0/2$。\n3. 与尾积分Cauchy准则矛盾。\n4. 构造面积可和但峰高固定的连续函数。",
+        "solution": "若$f$不趋零，存在$\\varepsilon_0>0$和$x_n\\to\\infty$使$|f(x_n)|\\ge\\varepsilon_0$。一致连续性给$\\delta>0$使$|x-y|<\\delta$时$|f(x)-f(y)|<\\varepsilon_0/2$。取$h=\\delta/2$，在每段$[x_n,x_n+h]$上函数与$f(x_n)$同号且绝对值至少$\\varepsilon_0/2$，故积分绝对值至少$\\varepsilon_0h/2$，与广义积分收敛的Cauchy准则矛盾。\n若只连续非负，取$\\delta_n=2^{-n-2}$，在互不相交区间$[n-\\delta_n,n+\\delta_n]$放顶点高为1的三角峰，其余为0。每峰面积$\\delta_n$，总面积$\\sum\\delta_n<\\infty$，但$f(n)=1$，所以不趋零；峰宽趋零，函数不一致连续。",
+        "reflection": "一致连续是统一控制每个高峰宽度的关键，普通连续仅局部控制。",
+        "knowledge_notes": "- 函数极限与连续性/一致连续性/一致连续函数极限\n- 一元函数积分学/反常积分/Cauchy准则",
+        "rating_notes": "- 难度：★★★★☆（4/5）；依据论证和计算复杂度评估。\n- 重要性：★★★★☆（4/5）；依据知识基础性和迁移价值评估。\n- 考试复现概率：★★★☆☆（3/5）；暂定题型判断，非历年统计概率。",
+        "verification": "- 对照第11周提示版第3页与讲义第5题。\n- 已复核端点、比较方向及反常积分定义。"
+      },
+      "search_text": "w11-q05\n第11周\n第5题\n一致连续性与无穷远极限\n函数极限与连续性/一致连续性/一致连续函数极限\n一元函数积分学/反常积分/Cauchy准则\n一致连续性与无穷远极限\n一致连续函数极限\nCauchy准则\n设$f:[0,\\infty)\\to\\mathbb R$一致连续且$\\int_0^\\infty f$收敛。证明$f(x)\\to0$。若仅假设$f$连续非负，结论是否仍成立？说明。"
+    },
+    {
+      "id": "w11-q06",
+      "week": 11,
+      "question_number": 6,
+      "title": "单调函数在零点附近的必要条件",
+      "file": "第11周/第6题.md",
+      "sources": [
+        "作业/第11周习题-提示版.pdf",
+        "作业/第11周习题讲义.pdf"
+      ],
+      "source_pages": "提示版3；讲义6",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 3,
+        "importance": 4,
+        "exam_probability": 3,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，具体理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★★☆☆",
+        "importance": "★★★★☆",
+        "exam_probability": "★★★☆☆"
+      },
+      "knowledge": [
+        "一元函数积分学/反常积分/单调比较",
+        "函数极限与连续性/函数极限/瑕点极限"
+      ],
+      "tags": [
+        "单调函数在零点附近的必要条件",
+        "单调比较",
+        "瑕点极限"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "设$f:(0,1]\\to\\mathbb R$单调减少且$f(x)\\to+\\infty$当$x\\to0^+$。若$\\int_0^1f$收敛，证明$xf(x)\\to0$。",
+        "hint": "对$0<eta<x$用单调性在$[eta,x]$下估积分，再令$etadownarrow0$。",
+        "framework": "1. 小$x$处$f(x)\\ge0$。\n2. $f(t)\\ge f(x)$，积分得$(x-\\eta)f(x)\\le\\int_\\eta^x f$。\n3. 令$\\eta\\downarrow0$，再令$x\\downarrow0$。",
+        "solution": "当$x$充分小时$f(x)\\ge0$。对$0<\\eta<x$及$t\\in[\\eta,x]$，单调减少意味着$f(t)\\ge f(x)$，于是\n$$(x-\\eta)f(x)\\le\\int_\\eta^xf(t)dt.$$\n令$\\eta\\downarrow0$得$0\\le xf(x)\\le\\int_0^xf(t)dt$。瑕积分收敛时靠近0的尾积分趋于0，故夹逼得$xf(x)\\to0$。",
+        "reflection": "单调性把单点高度转成区间下界；这是收敛的必要条件而非充分条件。",
+        "knowledge_notes": "- 一元函数积分学/反常积分/单调比较\n- 函数极限与连续性/函数极限/瑕点极限",
+        "rating_notes": "- 难度：★★★☆☆（3/5）；依据论证和计算复杂度评估。\n- 重要性：★★★★☆（4/5）；依据知识基础性和迁移价值评估。\n- 考试复现概率：★★★☆☆（3/5）；暂定题型判断，非历年统计概率。",
+        "verification": "- 对照第11周提示版第3页与讲义第6题。\n- 已复核端点、比较方向及反常积分定义。"
+      },
+      "search_text": "w11-q06\n第11周\n第6题\n单调函数在零点附近的必要条件\n一元函数积分学/反常积分/单调比较\n函数极限与连续性/函数极限/瑕点极限\n单调函数在零点附近的必要条件\n单调比较\n瑕点极限\n设$f:(0,1]\\to\\mathbb R$单调减少且$f(x)\\to+\\infty$当$x\\to0^+$。若$\\int_0^1f$收敛，证明$xf(x)\\to0$。"
+    },
+    {
+      "id": "w11-q07",
+      "week": 11,
+      "question_number": 7,
+      "title": "单调乘积在无穷远处的必要条件",
+      "file": "第11周/第7题.md",
+      "sources": [
+        "作业/第11周习题-提示版.pdf",
+        "作业/第11周习题讲义.pdf"
+      ],
+      "source_pages": "提示版4；讲义6-8",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 4,
+        "importance": 4,
+        "exam_probability": 2,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，具体理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★★★☆",
+        "importance": "★★★★☆",
+        "exam_probability": "★★☆☆☆"
+      },
+      "knowledge": [
+        "一元函数积分学/反常积分/Cauchy准则",
+        "函数极限与连续性/函数极限/对数增长"
+      ],
+      "tags": [
+        "单调乘积在无穷远处的必要条件",
+        "Cauchy准则",
+        "对数增长"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "设$f$在$[a,\\infty)$局部黎曼可积，$\\int_a^\\infty f$收敛且$g(x)=xf(x)$单调减少。证明$x(\\ln x)f(x)\\to0$。",
+        "hint": "先证$g$尾部非负，再在$[sqrt{x},x]$利用$g(t)ge g(x)$并积分$dt/t$。",
+        "framework": "1. 若尾部$g<0$，单调性推出$f(t)\\le-c/t$，矛盾。\n2. 大$x$时$g\\ge0$。\n3. $\\int_{\\sqrt{x}}^x g(t)dt/t\\ge g(x)\\frac12\\ln x$。\n4. 用Cauchy准则使尾段积分趋0。",
+        "solution": "取$A>\\max(a,1)$。若某$x_0\\ge A$有$g(x_0)<0$，单调减少给$t\\ge x_0$时$g(t)\\le-c<0$，故$f(t)\\le-c/t$，其积分尾部不可能收敛。于是$g\\ge0$于尾部。\n当$x\\ge A^2$，对$t\\in[\\sqrt{x},x]$有$g(t)\\ge g(x)$，所以\n$$\\int_{\\sqrt{x}}^xf(t)dt\\ge g(x)\\int_{\\sqrt{x}}^x\\frac{dt}{t}=\\frac12g(x)\\ln x.$$\n因此$0\\le x\\ln x f(x)\\le2\\int_{\\sqrt{x}}^xf(t)dt$。两个端点都趋无穷，右侧由积分收敛的Cauchy准则趋0，结论成立。",
+        "reflection": "先排除负值再使用单调下界；区间长度尺度特意选取为平方根以产生$ln x$。",
+        "knowledge_notes": "- 一元函数积分学/反常积分/Cauchy准则\n- 函数极限与连续性/函数极限/对数增长",
+        "rating_notes": "- 难度：★★★★☆（4/5）；依据论证和计算复杂度评估。\n- 重要性：★★★★☆（4/5）；依据知识基础性和迁移价值评估。\n- 考试复现概率：★★☆☆☆（2/5）；暂定题型判断，非历年统计概率。",
+        "verification": "- 对照第11周提示版第4页与讲义第7题。\n- 已复核端点、比较方向及反常积分定义。"
+      },
+      "search_text": "w11-q07\n第11周\n第7题\n单调乘积在无穷远处的必要条件\n一元函数积分学/反常积分/Cauchy准则\n函数极限与连续性/函数极限/对数增长\n单调乘积在无穷远处的必要条件\nCauchy准则\n对数增长\n设$f$在$[a,\\infty)$局部黎曼可积，$\\int_a^\\infty f$收敛且$g(x)=xf(x)$单调减少。证明$x(\\ln x)f(x)\\to0$。"
+    },
+    {
+      "id": "w11-q08",
+      "week": 11,
+      "question_number": 8,
+      "title": "单调函数导数的振荡积分",
+      "file": "第11周/第8题.md",
+      "sources": [
+        "作业/第11周习题-提示版.pdf",
+        "作业/第11周习题讲义.pdf"
+      ],
+      "source_pages": "提示版4；讲义8",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 2,
+        "importance": 3,
+        "exam_probability": 2,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，具体理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★☆☆☆",
+        "importance": "★★★☆☆",
+        "exam_probability": "★★☆☆☆"
+      },
+      "knowledge": [
+        "一元函数微分学/导数应用/单调函数导数符号",
+        "一元函数积分学/反常积分/绝对收敛"
+      ],
+      "tags": [
+        "单调函数导数的振荡积分",
+        "单调函数导数符号",
+        "绝对收敛"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "设$f\\in C^1[0,\\infty)$单调减少且$f(x)\\to0$。证明$\\int_0^\\infty f'(x)\\sin^2x\\,dx$收敛。",
+        "hint": "其实可证明绝对收敛：$int|f'|=f(0)$。",
+        "framework": "1. $f'\\le0$。\n2. $\\int_0^A|f'|=f(0)-f(A)$。\n3. 令$A\\to\\infty$得$f'\\in L^1$。\n4. 与有界函数$\\sin^2x$相乘仍可积。",
+        "solution": "单调可导给$f'\\le0$，且$f\\ge0$。由基本定理\n$$\\int_0^A|f'(x)|dx=-\\int_0^Af'(x)dx=f(0)-f(A)\\longrightarrow f(0).$$\n所以$\\int_0^\\infty|f'|<\\infty$。再由$|\\sin^2x|\\le1$，\n$\\int_0^\\infty|f'(x)\\sin^2x|dx\\le\\int_0^\\infty|f'|<\\infty$，故原积分绝对收敛。",
+        "reflection": "三角振荡并非关键，单调性已给出导数绝对可积。",
+        "knowledge_notes": "- 一元函数微分学/导数应用/单调函数导数符号\n- 一元函数积分学/反常积分/绝对收敛",
+        "rating_notes": "- 难度：★★☆☆☆（2/5）；依据论证和计算复杂度评估。\n- 重要性：★★★☆☆（3/5）；依据知识基础性和迁移价值评估。\n- 考试复现概率：★★☆☆☆（2/5）；暂定题型判断，非历年统计概率。",
+        "verification": "- 对照第11周提示版第4页与讲义第8题。\n- 已复核端点、比较方向及反常积分定义。"
+      },
+      "search_text": "w11-q08\n第11周\n第8题\n单调函数导数的振荡积分\n一元函数微分学/导数应用/单调函数导数符号\n一元函数积分学/反常积分/绝对收敛\n单调函数导数的振荡积分\n单调函数导数符号\n绝对收敛\n设$f\\in C^1[0,\\infty)$单调减少且$f(x)\\to0$。证明$\\int_0^\\infty f'(x)\\sin^2x\\,dx$收敛。"
+    },
+    {
+      "id": "w11-q09",
+      "week": 11,
+      "question_number": 9,
+      "title": "Hardy不等式的最佳常数",
+      "file": "第11周/第9题.md",
+      "sources": [
+        "作业/第11周习题-提示版.pdf",
+        "作业/第11周习题讲义.pdf"
+      ],
+      "source_pages": "提示版4；讲义8-10",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 5,
+        "importance": 5,
+        "exam_probability": 2,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，具体理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★★★★",
+        "importance": "★★★★★",
+        "exam_probability": "★★☆☆☆"
+      },
+      "knowledge": [
+        "一元函数积分学/积分不等式/Hardy不等式",
+        "数学分析基础/函数空间/Lp范数"
+      ],
+      "tags": [
+        "Hardy不等式的最佳常数",
+        "Hardy不等式",
+        "Lp范数"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "设$1<p<\\infty$，$f$及$|f|^p$在$(0,1]$广义黎曼可积，定义$(Hf)(x)=x^{-1}\\int_0^xf(t)dt$。证明\n$$\\int_0^1|Hf|^pdx\\le\\left(\\frac p{p-1}\\right)^p\\int_0^1|f|^pdx,$$\n并证明常数最佳。",
+        "hint": "先对非负$g=|f|$在截断区间证明Hardy估计：对$V(x)=\\int_\\delta^xg$分部积分，再用Hölder；再用幂函数列逼近常数。",
+        "framework": "1. 令$K=p/(p-1)$、$g=|f|$。\n2. 在$[\\delta,1]$先对非负阶梯函数证明。\n3. 用Darboux上阶梯函数逼近$g$。\n4. 令$\\delta\\downarrow0$并控制左端。\n5. 取$f_n=x^{-1/p+1/(pn)}$验证常数无法缩小。",
+        "solution": "先证$g\\ge0$的截断版。令$V(x)=\\int_\\delta^xg(t)dt$，$J=\\int_\\delta^1(V(x)/x)^pdx$。对阶梯$g$逐段分部积分（内部分点边界项抵消）得\n$$J=-\\frac{V(1)^p}{p-1}+\\frac p{p-1}\\int_\\delta^1(V/x)^{p-1}g(x)dx\n\\le KJ^{(p-1)/p}\\left(\\int_\\delta^1g^p\\right)^{1/p},$$\n最后一步为Hölder；若$J=0$显然，否则除以$J^{(p-1)/p}$并取$p$次方，得$J\\le K^p\\int_\\delta^1g^p$。\n一般黎曼可积的$g$，在$[\\delta,1]$用$g^p$的Darboux上和构造分段常数$v\\ge g$，且$\\int v^p\\le\\int g^p+\\varepsilon$。因累积积分保序，$V_g\\le V_v$，故同一估计令$\\varepsilon\\to0$成立。\n令$\\delta\\downarrow0$。对任意固定$\\eta>0$，在$[\\eta,1]$上$\\delta^{-1}$截断累积积分一致趋于$\\int_0^xg$（误差至多$\\eta^{-1}\\int_0^\\delta g\\to0$）；先限制左积分至$[\\eta,1]$再令$\\delta\\to0$，最后令$\\eta\\downarrow0$，单调收敛得到\n$\\int_0^1(Hg)^p\\le K^p\\int_0^1g^p$。又$|Hf|\\le H|f|$，故一般$f$亦成立。\n锐性：令$n\\ge2$，\n$$f_n(x)=x^{-1/p+1/(pn)}.$$\n则$\\int_0^1|f_n|^pdx=\\int_0^1x^{-1+1/n}dx=n$，且\n$$Hf_n(x)=\\frac{pn}{n(p-1)+1}f_n(x).$$\n故积分比值恰为$[pn/(n(p-1)+1)]^p\\to[p/(p-1)]^p$。任何更小常数都不可能适用于所有$f$，所以常数最佳。",
+        "reflection": "形式极值函数$x^{-1/p}$本身不满足$p$次方可积；需用指数略大的合法函数列逼近最佳常数。",
+        "knowledge_notes": "- 一元函数积分学/积分不等式/Hardy不等式\n- 数学分析基础/函数空间/Lp范数",
+        "rating_notes": "- 难度：★★★★★（5/5）；根据论证层次和技术难度估计。\n- 重要性：★★★★★（5/5）；根据知识基础性和迁移价值估计。\n- 考试复现概率：★★☆☆☆（2/5）；暂定同类题型相关性，非历年统计概率。",
+        "verification": "- 对照第11周提示版第4页和讲义第9题，整理完整推导。\n- 已复核参数范围、端点行为及反常积分处理。"
+      },
+      "search_text": "w11-q09\n第11周\n第9题\nHardy不等式的最佳常数\n一元函数积分学/积分不等式/Hardy不等式\n数学分析基础/函数空间/Lp范数\nHardy不等式的最佳常数\nHardy不等式\nLp范数\n设$1<p<\\infty$，$f$及$|f|^p$在$(0,1]$广义黎曼可积，定义$(Hf)(x)=x^{-1}\\int_0^xf(t)dt$。证明\n$$\\int_0^1|Hf|^pdx\\le\\left(\\frac p{p-1}\\right)^p\\int_0^1|f|^pdx,$$\n并证明常数最佳。"
+    },
+    {
+      "id": "w11-q10",
+      "week": 11,
+      "question_number": 10,
+      "title": "无限长均匀细杆的引力",
+      "file": "第11周/第10题.md",
+      "sources": [
+        "作业/第11周习题-提示版.pdf",
+        "作业/第11周习题讲义.pdf"
+      ],
+      "source_pages": "提示版5；讲义11",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 4,
+        "importance": 4,
+        "exam_probability": 2,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，具体理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★★★☆",
+        "importance": "★★★★☆",
+        "exam_probability": "★★☆☆☆"
+      },
+      "knowledge": [
+        "一元函数积分学/反常积分/向量值积分",
+        "数学建模/物理应用/万有引力"
+      ],
+      "tags": [
+        "无限长均匀细杆的引力",
+        "向量值积分",
+        "万有引力"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "无限长均匀细杆为$x$轴，线密度$\\lambda>0$。质量$m>0$质点位于$P=(0,a)$，$a>0$。用反常积分求引力大小和方向，并说明两端积分绝对收敛。",
+        "hint": "对质量微元积分引力向量；先用$O(x^{-2})$控制向量范数证明绝对收敛，再用奇对称消掉水平分量。",
+        "framework": "1. 写出$x$处质量微元及引力向量。\n2. 估计向量范数并验证两侧尾积分绝对收敛。\n3. 利用奇偶性和原函数计算两个分量。\n4. 给出大小方向。",
+        "solution": "杆上$(x,0)$处的质量微元为$\\lambda dx$。从$P$指向该微元的向量是$(x,-a)$，距离$\\sqrt{x^2+a^2}$，所以\n$$d\\mathbf F=Gm\\lambda\\frac{(x,-a)}{(x^2+a^2)^{3/2}}dx.$$\n向量被积函数的范数为$Gm\\lambda/(x^2+a^2)$，在有界区间连续，在无穷远$O(x^{-2})$，故左右两端分别绝对可积，分量积分亦绝对收敛。\n水平分量被积函数为奇函数，绝对收敛后可合法用对称性得$F_x=0$。竖直分量\n$$F_y=-Gm\\lambda a\\int_{-\\infty}^{\\infty}\\frac{dx}{(x^2+a^2)^{3/2}}\n=-Gm\\lambda a\\left[\\frac{x}{a^2\\sqrt{x^2+a^2}}\\right]_{-\\infty}^{+\\infty}\n=-\\frac{2Gm\\lambda}{a}.$$\n所以$\\mathbf F=(0,-2Gm\\lambda/a)$，大小$2Gm\\lambda/a$，方向垂直细杆指向垂足$(0,0)$。",
+        "reflection": "无限区间上的奇函数不能仅靠对称截断就说积分为0；必须先证明两侧通常反常积分各自收敛。",
+        "knowledge_notes": "- 一元函数积分学/反常积分/向量值积分\n- 数学建模/物理应用/万有引力",
+        "rating_notes": "- 难度：★★★★☆（4/5）；根据论证层次和技术难度估计。\n- 重要性：★★★★☆（4/5）；根据知识基础性和迁移价值估计。\n- 考试复现概率：★★☆☆☆（2/5）；暂定同类题型相关性，非历年统计概率。",
+        "verification": "- 对照第11周提示版第5页和讲义第10题，整理完整推导。\n- 已复核参数范围、端点行为及反常积分处理。"
+      },
+      "search_text": "w11-q10\n第11周\n第10题\n无限长均匀细杆的引力\n一元函数积分学/反常积分/向量值积分\n数学建模/物理应用/万有引力\n无限长均匀细杆的引力\n向量值积分\n万有引力\n无限长均匀细杆为$x$轴，线密度$\\lambda>0$。质量$m>0$质点位于$P=(0,a)$，$a>0$。用反常积分求引力大小和方向，并说明两端积分绝对收敛。"
+    },
+    {
+      "id": "w11-q11",
+      "week": 11,
+      "question_number": 11,
+      "title": "均匀实心球的引力",
+      "file": "第11周/第11题.md",
+      "sources": [
+        "作业/第11周习题-提示版.pdf",
+        "作业/第11周习题讲义.pdf"
+      ],
+      "source_pages": "提示版5；讲义12-14",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 5,
+        "importance": 4,
+        "exam_probability": 2,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，具体理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★★★★",
+        "importance": "★★★★☆",
+        "exam_probability": "★★☆☆☆"
+      },
+      "knowledge": [
+        "一元函数积分学/反常积分/瑕积分",
+        "数学建模/物理应用/球壳定理"
+      ],
+      "tags": [
+        "均匀实心球的引力",
+        "瑕积分",
+        "球壳定理"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "均匀实心球球心$O$、半径$R$、体密度$\\rho$，质点质量$m$位于$P$，令$r=|OP|$。(1)求半径$s$、面密度$\\sigma$的同心薄球壳对质点的引力，分$r>s$与$r<s$；(2)用薄壳叠加求实心球引力，讨论球内、球面、球外和球心，并处理$s=r$处反常积分。",
+        "hint": "薄壳按球带积分，旋转对称使横向分量抵消；再对壳半径叠加，得到球壳定理。",
+        "framework": "1. 取OP为轴，计算球带质量与轴向力分量。\n2. 对球带坐标积分，分$r>s$与$r<s$。\n3. 将实心球分解成厚度$ds$的薄壳。\n4. 在$s=r$处分开取反常极限；另算球心。",
+        "solution": "取$OP$方向为单位向量$e$。薄壳轴向坐标为$z\\in[-s,s]$，球带面积$2\\pi s\\,dz$，质量$dM=2\\pi s\\sigma dz$。到P距离$\\ell=(r^2+s^2-2rz)^{1/2}$，引力轴向分量为$Gm\\,dM(z-r)/\\ell^3$。垂直分量由旋转对称抵消。\n令$J=\\int_{-s}^s(r-z)(r^2+s^2-2rz)^{-3/2}dz$，则壳力$=-2\\pi Gm\\sigma sJ\\,e$。代换$\\ell=(r^2+s^2-2rz)^{1/2}$可得\n$$J=\\frac1{2r^2}\\left[\\ell-\\frac{r^2-s^2}{\\ell}\\right]_{|r-s|}^{r+s}.$$\n代入端点：$r>s$时$J=2s/r^2$；$0<r<s$时$J=0$。壳总质量$M_s=4\\pi s^2\\sigma$，所以壳力分别为$-GM_sm/r^2\\,e$（壳外）和0（壳内），即壳外如质点集中壳心，壳内合力为零。\n实心球厚度$ds$薄层质量$4\\pi\\rho s^2ds$。固定$r>0$，对$s<r$有壳外力，对$s>r$壳内力为零。若$r<R$，在$s=r$处分开作单侧瑕积分，两侧系数有界，故收敛，且\n$$\\mathbf F=-\\frac{4\\pi Gm\\rho}{r^2}\\int_0^rs^2ds\\,e=-\\frac{4\\pi Gm\\rho}{3}r\\,e.$$\n若$r\\ge R$，全部壳在质点内侧，故\n$$\\mathbf F=-\\frac{4\\pi Gm\\rho}{r^2}\\int_0^Rs^2ds\\,e=-\\frac{GMm}{r^2}e,\\quad M=\\frac{4\\pi\\rho R^3}{3}.$$\n球面两式一致。球心处每个球壳由对称性合力为0。故球内大小与$r$成正比，球外等效于总质量集中球心。",
+        "reflection": "薄壳结论只在$r\\ne s$先成立；壳半径积分必须在奇异参数处分段，而不能擅用主值。",
+        "knowledge_notes": "- 一元函数积分学/反常积分/瑕积分\n- 数学建模/物理应用/球壳定理",
+        "rating_notes": "- 难度：★★★★★（5/5）；根据论证层次和技术难度估计。\n- 重要性：★★★★☆（4/5）；根据知识基础性和迁移价值估计。\n- 考试复现概率：★★☆☆☆（2/5）；暂定同类题型相关性，非历年统计概率。",
+        "verification": "- 对照第11周提示版第5页和讲义第11题，整理完整推导。\n- 已复核参数范围、端点行为及反常积分处理。"
+      },
+      "search_text": "w11-q11\n第11周\n第11题\n均匀实心球的引力\n一元函数积分学/反常积分/瑕积分\n数学建模/物理应用/球壳定理\n均匀实心球的引力\n瑕积分\n球壳定理\n均匀实心球球心$O$、半径$R$、体密度$\\rho$，质点质量$m$位于$P$，令$r=|OP|$。(1)求半径$s$、面密度$\\sigma$的同心薄球壳对质点的引力，分$r>s$与$r<s$；(2)用薄壳叠加求实心球引力，讨论球内、球面、球外和球心，并处理$s=r$处反常积分。"
+    },
+    {
+      "id": "w11-q12",
+      "week": 11,
+      "question_number": 12,
+      "title": "分数阶Laplace算子的定义与计算",
+      "file": "第11周/第12题.md",
+      "sources": [
+        "作业/第11周习题-提示版.pdf",
+        "作业/第11周习题讲义.pdf"
+      ],
+      "source_pages": "提示版6；讲义14-17",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 5,
+        "importance": 4,
+        "exam_probability": 2,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，具体理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★★★★",
+        "importance": "★★★★☆",
+        "exam_probability": "★★☆☆☆"
+      },
+      "knowledge": [
+        "一元函数积分学/反常积分/对称主值",
+        "数学分析基础/函数空间/局部正则性"
+      ],
+      "tags": [
+        "分数阶Laplace算子的定义与计算",
+        "对称主值",
+        "局部正则性"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "定义$L^{2s}(\\mathbb R)=\\{u:\\int_{\\mathbb R}|u(y)|/(1+|y|^{1+2s})dy<\\infty\\}$。对局部黎曼可积$u$，定义对称截断算子\n$$( -\\Delta)^su(x)=C_{1,s}\\lim_{\\varepsilon\\downarrow0}\\int_{|y-x|>\\varepsilon}\\frac{u(x)-u(y)}{|x-y|^{1+2s}}dy.$$\n(1)$0<s<1/2$、$u$局部Lipschitz时证明有定义；(2)$0<s<1$、$u'$局部Lipschitz时证明有定义；(3)$u(x)=(\\max\\{x,0\\})^s$证明$(-\\Delta)^su(1)=0$。",
+        "hint": "无穷远由加权空间条件控制；奇点处(1)用一阶差估计，(2)对称截断消去线性项；(3)通过分部积分与倒数换元。",
+        "framework": "1. 固定$x$证明两侧无穷尾绝对收敛。\n2. (1)用$|u(x+h)-u(x)|\\le K|h|$。\n3. (2)写成$u'(x)h+O(h^2)$，奇线性项对称抵消。\n4. (3)验证尾部与局部存在性，再计算截断极限。",
+        "solution": "无穷远：固定$x$且$|y|$足够大时$|x-y|\\ge|y|/2$，被积绝对值可由常数乘\n$|u(x)||y|^{-1-2s}+|u(y)|/(1+|y|^{1+2s})$控制，故两端尾积分收敛。\n(1) 若$u$局部Lipschitz，$|u(x+h)-u(x)|\\le K|h|$。奇点附近绝对值被$K|h|^{-2s}$控制，$\\int_0^\\delta h^{-2s}dh<\\infty$恰当于$s<1/2$。\n(2) $u'$局部Lipschitz常数$K$时，$u(x+h)-u(x)=u'(x)h+E(h)$且$|E(h)|\\le K h^2/2$。在对称区间$\\varepsilon<|h|<\\delta$上，线性项$u'(x)h/|h|^{1+2s}$奇函数积分为0；余项绝对值被常数乘$|h|^{1-2s}$控制，对$s<1$可积。结合尾部即存在对称截断极限。\n(3) $u(x)=x_+^s$属于指定加权空间，因无穷远被积加权同$y^{-1-s}$。在$x=1$附近光滑，故主值存在。记不含常数$C_{1,s}$的截断积分为$I_\\varepsilon$。分别分解$y<0,0<y<1-\\varepsilon,y>1+\\varepsilon$，对后两段分部积分，再在最后一段令$y=1/t$。端点常数抵消后可化为\n$$I_\\varepsilon=\\frac{2-(1-\\varepsilon)^s-(1+\\varepsilon)^s}{2s\\varepsilon^{2s}}\n-\\frac12\\int_{1-\\varepsilon}^{1/(1+\\varepsilon)}\\frac{t^{s-1}}{(1-t)^{2s}}dt.$$\n第一项为$O(\\varepsilon^{2-2s})$（对$z^s$在1处作二阶Taylor），趋0。第二项积分区间长度$O(\\varepsilon^2)$，且$1-t\\ge c\\varepsilon$，故其绝对值$O(\\varepsilon^{2-2s})\\to0$。因此$I_\\varepsilon\\to0$，算子值为0。倒数换元后两截断边界不对称，保留中间短区间估计是必要的。",
+        "reflection": "奇点积分依赖局部正则阶数；对称主值可消线性奇项，但不能把两侧各自发散的积分分开。",
+        "knowledge_notes": "- 一元函数积分学/反常积分/对称主值\n- 数学分析基础/函数空间/局部正则性",
+        "rating_notes": "- 难度：★★★★★（5/5）；根据论证层次和技术难度估计。\n- 重要性：★★★★☆（4/5）；根据知识基础性和迁移价值估计。\n- 考试复现概率：★★☆☆☆（2/5）；暂定同类题型相关性，非历年统计概率。",
+        "verification": "- 对照第11周提示版第6页和讲义第12题，整理完整推导。\n- 已复核参数范围、端点行为及反常积分处理。"
+      },
+      "search_text": "w11-q12\n第11周\n第12题\n分数阶Laplace算子的定义与计算\n一元函数积分学/反常积分/对称主值\n数学分析基础/函数空间/局部正则性\n分数阶Laplace算子的定义与计算\n对称主值\n局部正则性\n定义$L^{2s}(\\mathbb R)=\\{u:\\int_{\\mathbb R}|u(y)|/(1+|y|^{1+2s})dy<\\infty\\}$。对局部黎曼可积$u$，定义对称截断算子\n$$( -\\Delta)^su(x)=C_{1,s}\\lim_{\\varepsilon\\downarrow0}\\int_{|y-x|>\\varepsilon}\\frac{u(x)-u(y)}{|x-y|^{1+2s}}dy.$$\n(1)$0<s<1/2$、$u$局部Lipschitz时证明有定义；(2)$0<s<1$、$u'$局部Lipschitz时证明有定义；(3)$u(x)=(\\max\\{x,0\\})^s$证明$(-\\Delta)^su(1)=0$。"
+    },
+    {
+      "id": "w11-q13",
+      "week": 11,
+      "question_number": 13,
+      "title": "级数的绝对收敛与条件收敛",
+      "file": "第11周/第13题.md",
+      "sources": [
+        "作业/第11周习题-提示版.pdf",
+        "作业/第11周习题讲义.pdf"
+      ],
+      "source_pages": "提示版7；讲义17-19",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 4,
+        "importance": 5,
+        "exam_probability": 4,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，具体理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★★★☆",
+        "importance": "★★★★★",
+        "exam_probability": "★★★★☆"
+      },
+      "knowledge": [
+        "数列与级数/正项级数/比值与比较判别",
+        "数列与级数/变号级数/Leibniz判别法",
+        "数列与级数/变号级数/绝对与条件收敛"
+      ],
+      "tags": [
+        "级数的绝对收敛与条件收敛",
+        "比值与比较判别",
+        "Leibniz判别法",
+        "绝对与条件收敛"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "判断下列级数绝对收敛、条件收敛或发散：\n(1)$\\sum_{n=1}^\\infty n^2/2^n$；\n(2)$\\sum_{n=1}^\\infty 2^n n!/n^n$；\n(3)$\\sum(\\sqrt{n^2+1}-\\sqrt{n^2-1})$；\n(4)$\\sum_{n=2}^\\infty\\ln\\frac{n^2+1}{n^2-1}$；\n(5)$\\sum_{n=3}^\\infty-\\ln\\cos(\\pi/n)$；\n(6)$\\sum_{n=1}^\\infty\\frac{(-1)^{n-1}}{\\sqrt n+(-1)^{n-1}}$；\n(7)$\\sum(-1)^n/(n\\sqrt n)$；\n(8)$\\sum_{n=1}^\\infty(-1)^n(1/n^{1/n}-1)$。",
+        "hint": "正项项用比值或等价比较；变号项先检查通项趋零，再区分绝对收敛与Leibniz收敛。第(6)问拆出调和级别的非交错项。",
+        "framework": "1. 对(1)(2)用比值判别。\n2. 对(3)-(5)有理化或Taylor比较。\n3. (6)写成收敛交错项减去发散正项。\n4. (7)(8)分别判断绝对值级数与交错条件。",
+        "solution": "(1) $u_n=n^2/2^n$，$u_{n+1}/u_n=(1+1/n)^2/2\\to1/2<1$，绝对收敛。\n(2) $u_n=2^nn!/n^n$，比值$u_{n+1}/u_n=2(n/(n+1))^n\\to2/e<1$，收敛。\n(3) 有理化得$2/(\\sqrt{n^2+1}+\\sqrt{n^2-1})\\sim1/n$，正项级数发散。\n(4) 通项$\\ln(1+2/(n^2-1))\\sim2/n^2$，绝对收敛。\n(5) $-\\ln\\cos t\\sim t^2/2$，取$t=\\pi/n$得通项$\\sim\\pi^2/(2n^2)$，绝对收敛。\n(6) 令$\\epsilon_n=(-1)^{n-1}$，有\n$$\\frac{\\epsilon_n}{\\sqrt n+\\epsilon_n}\n=\\frac{\\epsilon_n}{\\sqrt n}-\\frac1{\\sqrt n(\\sqrt n+\\epsilon_n)}.$$\n第一项级数由Leibniz收敛；第二项为正且与$1/n$等价，和发散到$+\\infty$。故原部分和趋$-\\infty$，级数发散。不能因符号交替就用Leibniz。\n(7) 绝对值级数为$\\sum n^{-3/2}$，故绝对收敛。\n(8) 令$t_n=\\ln n/n$，则$1/n^{1/n}=e^{-t_n}$，原项绝对值$b_n=1-e^{-t_n}\\sim t_n=\\ln n/n$，故$\\sum b_n$发散。另一方面$t(x)=\\ln x/x$最终递减趋0，$1-e^{-t}$随$t$递增，所以$b_n$最终递减趋0，Leibniz保证交错级数收敛。因此条件收敛。",
+        "reflection": "交错不等于收敛；通项趋零与单调性需分别检查。第(6)项中一个交错收敛部分叠加负调和发散部分。",
+        "knowledge_notes": "- 数列与级数/正项级数/比值与比较判别\n- 数列与级数/变号级数/Leibniz判别法\n- 数列与级数/变号级数/绝对与条件收敛",
+        "rating_notes": "- 难度：★★★★☆（4/5）；根据临界情形和论证复杂度评估。\n- 重要性：★★★★★（5/5）；根据基础性与迁移价值评估。\n- 考试复现概率：★★★★☆（4/5）；暂定判断，非历年统计概率。",
+        "verification": "- 对照第11周提示版第7页与讲义第13题。\n- 已检查临界参数、比较方向与条件收敛论证。"
+      },
+      "search_text": "w11-q13\n第11周\n第13题\n级数的绝对收敛与条件收敛\n数列与级数/正项级数/比值与比较判别\n数列与级数/变号级数/Leibniz判别法\n数列与级数/变号级数/绝对与条件收敛\n级数的绝对收敛与条件收敛\n比值与比较判别\nLeibniz判别法\n绝对与条件收敛\n判断下列级数绝对收敛、条件收敛或发散：\n(1)$\\sum_{n=1}^\\infty n^2/2^n$；\n(2)$\\sum_{n=1}^\\infty 2^n n!/n^n$；\n(3)$\\sum(\\sqrt{n^2+1}-\\sqrt{n^2-1})$；\n(4)$\\sum_{n=2}^\\infty\\ln\\frac{n^2+1}{n^2-1}$；\n(5)$\\sum_{n=3}^\\infty-\\ln\\cos(\\pi/n)$；\n(6)$\\sum_{n=1}^\\infty\\frac{(-1)^{n-1}}{\\sqrt n+(-1)^{n-1}}$；\n(7)$\\sum(-1)^n/(n\\sqrt n)$；\n(8)$\\sum_{n=1}^\\infty(-1)^n(1/n^{1/n}-1)$。"
+    },
+    {
+      "id": "w11-q14",
+      "week": 11,
+      "question_number": 14,
+      "title": "Cauchy凝聚判别法",
+      "file": "第11周/第14题.md",
+      "sources": [
+        "作业/第11周习题-提示版.pdf",
+        "作业/第11周习题讲义.pdf"
+      ],
+      "source_pages": "提示版8；讲义19-20",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 3,
+        "importance": 4,
+        "exam_probability": 4,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，具体理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★★☆☆",
+        "importance": "★★★★☆",
+        "exam_probability": "★★★★☆"
+      },
+      "knowledge": [
+        "数列与级数/正项级数/Cauchy凝聚判别法"
+      ],
+      "tags": [
+        "Cauchy凝聚判别法",
+        "Cauchy凝聚判别法"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "设$(a_n)$非负单调减少。证明$\\sum_{n=1}^\\infty a_n$收敛当且仅当$\\sum_{k=1}^\\infty2^ka_{2^k}$收敛。",
+        "hint": "按二进制块$[2^k,2^{k+1}-1]$分组，每块项数为$2^k$，由单调性夹住块和。",
+        "framework": "1. 对$k$块逐项比较$a_{2^{k+1}}\\le a_n\\le a_{2^k}$。\n2. 求和得块和上下界。\n3. 对块数求和，利用正项级数部分和有界判据。",
+        "solution": "在块$2^k\\le n\\le2^{k+1}-1$内有$2^k$项，且$a_{2^{k+1}}\\le a_n\\le a_{2^k}$，因此\n$$2^ka_{2^{k+1}}\\le\\sum_{n=2^k}^{2^{k+1}-1}a_n\\le2^ka_{2^k}.$$\n对$k=0,\\dots,m$求和：原级数分块部分和夹在凝聚级数相邻部分和之间（左边指标换成$k+1$，右边最多差有限首项）。若原级数收敛，块和部分和有界，由左不等式凝聚级数部分和有界，故收敛。反之若凝聚级数收敛，由右不等式原级数在$2^{m+1}-1$处的部分和一致有界；非负性保证任意部分和不超过某个这样的部分和，因此原级数收敛。",
+        "reflection": "单调性负责把每一整块的所有项与端点项比较；非负性使部分和有界等价于收敛。",
+        "knowledge_notes": "- 数列与级数/正项级数/Cauchy凝聚判别法",
+        "rating_notes": "- 难度：★★★☆☆（3/5）；根据临界情形和论证复杂度评估。\n- 重要性：★★★★☆（4/5）；根据基础性与迁移价值评估。\n- 考试复现概率：★★★★☆（4/5）；暂定判断，非历年统计概率。",
+        "verification": "- 对照第11周提示版第8页与讲义第14题。\n- 已检查临界参数、比较方向与条件收敛论证。"
+      },
+      "search_text": "w11-q14\n第11周\n第14题\nCauchy凝聚判别法\n数列与级数/正项级数/Cauchy凝聚判别法\nCauchy凝聚判别法\nCauchy凝聚判别法\n设$(a_n)$非负单调减少。证明$\\sum_{n=1}^\\infty a_n$收敛当且仅当$\\sum_{k=1}^\\infty2^ka_{2^k}$收敛。"
+    },
+    {
+      "id": "w11-q15",
+      "week": 11,
+      "question_number": 15,
+      "title": "单调正项级数的必要条件",
+      "file": "第11周/第15题.md",
+      "sources": [
+        "作业/第11周习题-提示版.pdf",
+        "作业/第11周习题讲义.pdf"
+      ],
+      "source_pages": "提示版8；讲义20",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 3,
+        "importance": 4,
+        "exam_probability": 3,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，具体理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★★☆☆",
+        "importance": "★★★★☆",
+        "exam_probability": "★★★☆☆"
+      },
+      "knowledge": [
+        "数列与级数/正项级数/必要条件",
+        "数列与级数/数列极限/Cauchy准则"
+      ],
+      "tags": [
+        "单调正项级数的必要条件",
+        "必要条件",
+        "Cauchy准则"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "设$(a_n)$非负单调减少。证明若$\\sum a_n$收敛，则$na_n\\to0$。",
+        "hint": "从$n/2$之后的项都不小于$a_n$，用级数尾和夹住$na_n$。",
+        "framework": "1. 令$m=[n/2]$。\n2. 对$m+1\\le k\\le n$使用$a_k\\ge a_n$。\n3. 与尾和比较并令$n\\to\\infty$。",
+        "solution": "对$n\\ge2$，从$[n/2]+1$到$n$至少有$n/2$项，并且每项$a_k\\ge a_n$。故\n$$0\\le\\frac n2a_n\\le\\sum_{k=[n/2]+1}^na_k,$$\n即$0\\le na_n\\le2\\sum_{k=[n/2]+1}^\\infty a_k$。右侧是收敛级数尾和，因起点趋于无穷而趋0，夹逼得$na_n\\to0$。",
+        "reflection": "收敛正项级数的单调性可把尾和下界成许多份$a_n$；结论仍只是必要条件，如$1/(nln n)$反例。",
+        "knowledge_notes": "- 数列与级数/正项级数/必要条件\n- 数列与级数/数列极限/Cauchy准则",
+        "rating_notes": "- 难度：★★★☆☆（3/5）；根据临界情形和论证复杂度评估。\n- 重要性：★★★★☆（4/5）；根据基础性与迁移价值评估。\n- 考试复现概率：★★★☆☆（3/5）；暂定判断，非历年统计概率。",
+        "verification": "- 对照第11周提示版第8页与讲义第15题。\n- 已检查临界参数、比较方向与条件收敛论证。"
+      },
+      "search_text": "w11-q15\n第11周\n第15题\n单调正项级数的必要条件\n数列与级数/正项级数/必要条件\n数列与级数/数列极限/Cauchy准则\n单调正项级数的必要条件\n必要条件\nCauchy准则\n设$(a_n)$非负单调减少。证明若$\\sum a_n$收敛，则$na_n\\to0$。"
+    },
+    {
+      "id": "w11-q16",
+      "week": 11,
+      "question_number": 16,
+      "title": "含两层对数的级数",
+      "file": "第11周/第16题.md",
+      "sources": [
+        "作业/第11周习题-提示版.pdf",
+        "作业/第11周习题讲义.pdf"
+      ],
+      "source_pages": "提示版8；讲义20-21",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 4,
+        "importance": 5,
+        "exam_probability": 4,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，具体理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★★★☆",
+        "importance": "★★★★★",
+        "exam_probability": "★★★★☆"
+      },
+      "knowledge": [
+        "数列与级数/正项级数/积分判别法",
+        "数列与级数/正项级数/凝聚与比较",
+        "函数极限与连续性/函数极限/对数慢变"
+      ],
+      "tags": [
+        "含两层对数的级数",
+        "积分判别法",
+        "凝聚与比较",
+        "对数慢变"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "设$p,q,r\\in\\mathbb R$，讨论$\\displaystyle\\sum_{n=3}^\\infty\\frac1{n^p(\\ln n)^q(\\ln\\ln n)^r}$的敛散性。",
+        "hint": "先比较$p$与1；临界$p=1$时用积分判别并令$t=ln x$，再比较$q$，最后在$q=1$时令$v=ln t$检查$r$。",
+        "framework": "1. 当$p\\ne1$，证明对数因子夹在$n^{\\pm\\delta}$之间。\n2. $p>1$选小$\\delta$作收敛比较；$p<1$作发散比较。\n3. $p=1$验证函数最终递减并用积分判别。\n4. 两次对数换元处理临界。",
+        "solution": "结论：收敛当且仅当$p>1$；或$p=1,q>1$；或$p=q=1,r>1$。\n证明：固定$q,r$，对任意$\\delta>0$，对充分大$x$，\n$$x^{-\\delta}\\le(\\ln x)^q(\\ln\\ln x)^r\\le x^\\delta,$$\n因为该因子的对数除以$\\ln x$趋0。当$p>1$取$\\delta=(p-1)/2$，通项不超过$n^{-(p+1)/2}$，收敛；当$p<1$取$\\delta=(1-p)/2$，通项不小于$n^{-(p+1)/2}$，发散。\n$p=1$时$f(x)=1/[x(\\ln x)^q(\\ln\\ln x)^r]$最终递减（对数求导后主项为$-1/x$），积分判别适用。令$t=\\ln x$后积分化为$\\int dt/[t^q(\\ln t)^r]$。若$q>1$收敛，$q<1$发散，理由仍是对数因子被$t^{\\pm\\delta}$夹住。$q=1$再令$v=\\ln t$，成为$\\int v^{-r}dv$，恰在$r>1$收敛。综上三种情形。",
+        "reflection": "每一层只有前一层恰处于临界指数1时才需要继续检查；积分判别需先确认最终单调。",
+        "knowledge_notes": "- 数列与级数/正项级数/积分判别法\n- 数列与级数/正项级数/凝聚与比较\n- 函数极限与连续性/函数极限/对数慢变",
+        "rating_notes": "- 难度：★★★★☆（4/5）；根据临界情形和论证复杂度评估。\n- 重要性：★★★★★（5/5）；根据基础性与迁移价值评估。\n- 考试复现概率：★★★★☆（4/5）；暂定判断，非历年统计概率。",
+        "verification": "- 对照第11周提示版第8页与讲义第16题。\n- 已检查临界参数、比较方向与条件收敛论证。"
+      },
+      "search_text": "w11-q16\n第11周\n第16题\n含两层对数的级数\n数列与级数/正项级数/积分判别法\n数列与级数/正项级数/凝聚与比较\n函数极限与连续性/函数极限/对数慢变\n含两层对数的级数\n积分判别法\n凝聚与比较\n对数慢变\n设$p,q,r\\in\\mathbb R$，讨论$\\displaystyle\\sum_{n=3}^\\infty\\frac1{n^p(\\ln n)^q(\\ln\\ln n)^r}$的敛散性。"
+    },
+    {
+      "id": "w11-q17",
+      "week": 11,
+      "question_number": 17,
+      "title": "正弦迭代生成的级数",
+      "file": "第11周/第17题.md",
+      "sources": [
+        "作业/第11周习题-提示版.pdf",
+        "作业/第11周习题讲义.pdf"
+      ],
+      "source_pages": "提示版9；讲义21-22",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 4,
+        "importance": 4,
+        "exam_probability": 3,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，具体理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★★★☆",
+        "importance": "★★★★☆",
+        "exam_probability": "★★★☆☆"
+      },
+      "knowledge": [
+        "数列与级数/变号级数/Leibniz判别法",
+        "数列与极限/递推数列/单调收敛"
+      ],
+      "tags": [
+        "正弦迭代生成的级数",
+        "Leibniz判别法",
+        "单调收敛"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "任取$x\\in\\mathbb R$，令$a_1=\\sin x$、$a_{n+1}=\\sin a_n$。证明$\\sum_{n=1}^\\infty(-1)^{n-1}a_n$收敛。",
+        "hint": "若首项为0则平凡；否则利用正弦奇性提出固定符号，证明绝对值序列递减趋0，再用Leibniz。",
+        "framework": "1. 单独处理$\\sin x=0$。\n2. 设$b_n=|a_n|$，证明符号固定且$b_{n+1}=\\sin b_n$。\n3. 证明$b_n$递减并趋于0。\n4. 用交错级数判别。",
+        "solution": "若$\\sin x=0$，所有$a_n=0$。否则设$\\sigma=\\operatorname{sgn}(a_1)$。因$0<b_1=|\\sin x|\\le1$，且对$0<t\\le1$有$0<\\sin t<t$，利用正弦奇性归纳得$a_n=\\sigma b_n$、$b_{n+1}=\\sin b_n$，并且$0<b_{n+1}<b_n\\le1$。因此$b_n$递减到某$\\ell\\ge0$。递推取极限得$\\ell=\\sin\\ell$；在$(0,1]$上$\\sin\\ell<\\ell$，故只能$\\ell=0$。于是$\\sum(-1)^{n-1}b_n$由Leibniz判别收敛，原级数等于它乘固定符号$\\sigma$，故收敛。",
+        "reflection": "当$a_1<0$时，$a_n$不是非负递减序列；先取绝对值并提出固定符号，才可正确应用Leibniz判别。",
+        "knowledge_notes": "- 数列与级数/变号级数/Leibniz判别法\n- 数列与极限/递推数列/单调收敛",
+        "rating_notes": "- 难度：★★★★☆（4/5）；根据论证复杂度评估。\n- 重要性：★★★★☆（4/5）；根据基础性与方法迁移价值评估。\n- 考试复现概率：★★★☆☆（3/5）；暂定同类题型判断，非历年统计概率。",
+        "verification": "- 对照第11周提示版第9页与讲义第17题。\n- 已检查数列递推、符号、单调性和判别法条件。"
+      },
+      "search_text": "w11-q17\n第11周\n第17题\n正弦迭代生成的级数\n数列与级数/变号级数/Leibniz判别法\n数列与极限/递推数列/单调收敛\n正弦迭代生成的级数\nLeibniz判别法\n单调收敛\n任取$x\\in\\mathbb R$，令$a_1=\\sin x$、$a_{n+1}=\\sin a_n$。证明$\\sum_{n=1}^\\infty(-1)^{n-1}a_n$收敛。"
+    },
+    {
+      "id": "w11-q18",
+      "week": 11,
+      "question_number": 18,
+      "title": "由Dirichlet判别法推出Abel判别法",
+      "file": "第11周/第18题.md",
+      "sources": [
+        "作业/第11周习题-提示版.pdf",
+        "作业/第11周习题讲义.pdf"
+      ],
+      "source_pages": "提示版9；讲义22",
+      "default_mastery": "尚未评估",
+      "review_state": "未开始",
+      "ratings": {
+        "difficulty": 3,
+        "importance": 4,
+        "exam_probability": 3,
+        "exam_probability_basis": "暂定估计；非历年试卷统计，具体理由见正文"
+      },
+      "stars": {
+        "difficulty": "★★★☆☆",
+        "importance": "★★★★☆",
+        "exam_probability": "★★★☆☆"
+      },
+      "knowledge": [
+        "数列与级数/变号级数/Dirichlet判别法",
+        "数列与级数/变号级数/Abel判别法"
+      ],
+      "tags": [
+        "由Dirichlet判别法推出Abel判别法",
+        "Dirichlet判别法",
+        "Abel判别法"
+      ],
+      "content_format": "markdown-mixed-math-v1",
+      "has_legacy_inline_notation": false,
+      "source_caveat": null,
+      "sections": {
+        "problem": "设$\\sum_{n=1}^\\infty a_n$为收敛实级数，$(b_n)$为有界单调实数列。利用Dirichlet判别法证明$\\sum a_nb_n$收敛。",
+        "hint": "令$b=lim b_n$，拆成常数部分$bsum a_n$与趋零单调部分$sum a_n(b_n-b)$；后者用Dirichlet。",
+        "framework": "1. 有界单调数列收敛到$b$。\n2. 令$c_n=b_n-b$，它单调趋零（可为非正）。\n3. $\\sum a_n$的部分和有界，对$\\sum a_nc_n$用Dirichlet。\n4. 合并两个收敛级数。",
+        "solution": "有界单调数列有有限极限$b$。令$c_n=b_n-b$，则$c_n$仍单调且趋于0；其符号固定（允许个别零项）。原级数$\\sum a_n$收敛，所以部分和$A_N=\\sum_{n=1}^Na_n$有界。Dirichlet判别法（若要求因子非负，将负的$c_n$改为$-c_n$）给出$\\sum a_nc_n$收敛。对每个$N$，\n$$\\sum_{n=1}^Na_nb_n=b\\sum_{n=1}^Na_n+\\sum_{n=1}^Na_n(b_n-b).$$\n右边两项分别收敛，故左侧部分和有极限，命题成立。",
+        "reflection": "Dirichlet要求单调因子趋0；Abel条件中的有界单调因子未必趋零，减去其极限即可。",
+        "knowledge_notes": "- 数列与级数/变号级数/Dirichlet判别法\n- 数列与级数/变号级数/Abel判别法",
+        "rating_notes": "- 难度：★★★☆☆（3/5）；根据论证复杂度评估。\n- 重要性：★★★★☆（4/5）；根据基础性与方法迁移价值评估。\n- 考试复现概率：★★★☆☆（3/5）；暂定同类题型判断，非历年统计概率。",
+        "verification": "- 对照第11周提示版第9页与讲义第18题。\n- 已检查数列递推、符号、单调性和判别法条件。"
+      },
+      "search_text": "w11-q18\n第11周\n第18题\n由Dirichlet判别法推出Abel判别法\n数列与级数/变号级数/Dirichlet判别法\n数列与级数/变号级数/Abel判别法\n由Dirichlet判别法推出Abel判别法\nDirichlet判别法\nAbel判别法\n设$\\sum_{n=1}^\\infty a_n$为收敛实级数，$(b_n)$为有界单调实数列。利用Dirichlet判别法证明$\\sum a_nb_n$收敛。"
     }
   ]
 }
