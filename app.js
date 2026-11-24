@@ -231,6 +231,17 @@ function questionSummary(q) {
 function compactSearch(value) {
   return String(value ?? '').toLowerCase().replace(/[\s，。、“”‘’：:；;、/\\_\-]+/g, '');
 }
+let searchableQuestions = null;
+let searchableQuestionById = null;
+function buildSearchIndex() {
+  if (searchableQuestions) return searchableQuestions;
+  searchableQuestions = state.data.questions.map(q => ({
+    question: q,
+    text: compactSearch([q.title, q.search_text, ...q.knowledge, ...q.tags, ...searchAliases(q)].join(' '))
+  }));
+  searchableQuestionById = new Map(searchableQuestions.map(item => [item.question.id, item.text]));
+  return searchableQuestions;
+}
 function searchAliases(q) {
   return [
     q.id,
@@ -244,7 +255,8 @@ function searchAliases(q) {
 function matchesSearch(q, query) {
   const needle=compactSearch(query);
   if(!needle) return true;
-  const haystack=compactSearch([q.title, q.search_text, ...q.knowledge, ...q.tags, ...searchAliases(q)].join(' '));
+  buildSearchIndex();
+  const haystack=searchableQuestionById.get(q.id) ?? '';
   return haystack.includes(needle);
 }
 function matches(q) {
@@ -260,6 +272,13 @@ function matches(q) {
 function problemCard(q) {
   return '<article class="problem-card card"><a class="problem-link" href="#problem/'+q.id+'"><div class="problem-title">第'+q.week+'周 · 第'+q.question_number+'题 · '+escapeHtml(q.title)+'</div><div class="problem-summary">'+questionSummary(q)+'</div><div class="problem-meta"><span class="week-tag">第'+q.week+'周</span>'+q.knowledge.slice(0,2).map(k=>'<span class="tag">'+escapeHtml(k.split('/').at(-1))+'</span>').join('')+'<span class="mastery-tag">'+escapeHtml(masteryOf(q))+'</span>'+(hasNote(q)?'<span class="note-tag">有笔记</span>':'')+'</div></a><div class="rating-stack"><div>难度 '+stars(q.ratings.difficulty)+'</div><div>重要性 '+stars(q.ratings.importance)+'</div><div>复现 '+stars(q.ratings.exam_probability)+'</div></div></article>';
 }
+const LIBRARY_PAGE_SIZE = 36;
+let libraryVisibleCount = LIBRARY_PAGE_SIZE;
+function problemResults(shown) {
+  if (!shown.length) return '<div class="card empty-state">没有符合筛选条件的题目。<br><br><button class="small-button" id="clear-filters">清除筛选</button></div>';
+  return shown.slice(0,libraryVisibleCount).map(problemCard).join('') +
+    (shown.length>libraryVisibleCount?'<button class="small-button library-load-more" id="library-load-more" type="button">再显示 '+Math.min(LIBRARY_PAGE_SIZE,shown.length-libraryVisibleCount)+' 道（共 '+shown.length+' 道）</button>':'');
+}
 function header(title, subtitle) { return '<div class="eyebrow">数学分析·题库 by paperlover</div><h1>'+title+'</h1><p class="hero-copy p">'+subtitle+'</p>'; }
 function homeView() {
   const qs=state.data.questions, lastId=(()=>{try{return localStorage.getItem(LAST_VIEWED_QUESTION_KEY)}catch(_){return null}})(), featured=qs.find(q=>q.id===lastId)||qs.find(q=>q.id==='w02-q11')||qs[0], hasLastViewed=featured.id===lastId, mastered=qs.filter(q=>masteryOf(q)==='我完全掌握了').length, assessed=qs.filter(q=>masteryOf(q)!=='尚未评估').length, progress=Math.round(mastered/qs.length*100);
@@ -267,19 +286,22 @@ function homeView() {
 }
 function libraryView() {
   const shown=state.data.questions.filter(matches), topics=topicRoots();
-  return '<div id="library">'+header('题库','我们已经做了这么多题了咩？？！！')+'<div class="library-layout section"><aside class="filters card"><h3>筛选题目</h3><div class="filter-group"><label class="filter-label">知识板块</label><select id="topic-filter" class="filter-select">'+topics.map(o=>'<option '+(o===state.filters.topic?'selected':'')+'>'+escapeHtml(o)+'</option>').join('')+'</select></div><div class="filter-group"><label class="filter-label">掌握程度</label><select id="mastery-filter" class="filter-select"><option>全部掌握状态</option>'+masteryOptions.map(o=>'<option '+(o===state.filters.mastery?'selected':'')+'>'+o+'</option>').join('')+'</select></div><div class="filter-group"><span class="filter-label">三维评级</span><label class="check-item"><input type="checkbox" data-rating="importance" '+(state.filters.ratings.importance?'checked':'')+'> 重要性 ≥ 4 星</label><label class="check-item"><input type="checkbox" data-rating="exam_probability" '+(state.filters.ratings.exam_probability?'checked':'')+'> 复现概率 ≥ 4 星</label><label class="check-item"><input type="checkbox" data-rating="difficulty" '+(state.filters.ratings.difficulty?'checked':'')+'> 难度 ≤ 3 星</label></div><div class="filter-group"><label class="check-item"><input type="checkbox" id="notes-only-filter" '+(state.filters.notesOnly?'checked':'')+'> 只看有笔记的题目</label></div></aside><section><div class="library-top"><input id="search-input" class="search-input" aria-label="搜索题库" placeholder="如：第1周第2题、ε-N、极限定义" value="'+escapeHtml(state.filters.search)+'"><span class="result-count">显示 '+shown.length+' / '+state.data.questions.length+' 道题</span></div><div id="problem-results" class="problem-list">'+(shown.length?shown.map(problemCard).join(''):'<div class="card empty-state">没有符合筛选条件的题目。<br><br><button class="small-button" id="clear-filters">清除筛选</button></div>')+'</div></section></div></div>';
+  libraryVisibleCount=LIBRARY_PAGE_SIZE;
+  return '<div id="library">'+header('题库','我们已经做了这么多题了咩？？！！')+'<div class="library-layout section"><aside class="filters card"><h3>筛选题目</h3><div class="filter-group"><label class="filter-label">知识板块</label><select id="topic-filter" class="filter-select">'+topics.map(o=>'<option '+(o===state.filters.topic?'selected':'')+'>'+escapeHtml(o)+'</option>').join('')+'</select></div><div class="filter-group"><label class="filter-label">掌握程度</label><select id="mastery-filter" class="filter-select"><option>全部掌握状态</option>'+masteryOptions.map(o=>'<option '+(o===state.filters.mastery?'selected':'')+'>'+o+'</option>').join('')+'</select></div><div class="filter-group"><span class="filter-label">三维评级</span><label class="check-item"><input type="checkbox" data-rating="importance" '+(state.filters.ratings.importance?'checked':'')+'> 重要性 ≥ 4 星</label><label class="check-item"><input type="checkbox" data-rating="exam_probability" '+(state.filters.ratings.exam_probability?'checked':'')+'> 复现概率 ≥ 4 星</label><label class="check-item"><input type="checkbox" data-rating="difficulty" '+(state.filters.ratings.difficulty?'checked':'')+'> 难度 ≤ 3 星</label></div><div class="filter-group"><label class="check-item"><input type="checkbox" id="notes-only-filter" '+(state.filters.notesOnly?'checked':'')+'> 只看有笔记的题目</label></div></aside><section><div class="library-top"><input id="search-input" class="search-input" aria-label="搜索题库" placeholder="如：第1周第2题、ε-N、极限定义" value="'+escapeHtml(state.filters.search)+'"><span class="result-count">显示 '+shown.length+' / '+state.data.questions.length+' 道题</span></div><div id="problem-results" class="problem-list">'+problemResults(shown)+'</div></section></div></div>';
 }
 function updateLibraryResults() {
   const list=document.getElementById('problem-results');
   const count=document.querySelector('.result-count');
   if(!list||!count) return;
   const shown=state.data.questions.filter(matches);
-  list.innerHTML=shown.length?shown.map(problemCard).join(''):'<div class="card empty-state">没有符合筛选条件的题目。<br><br><button class="small-button" id="clear-filters">清除筛选</button></div>';
+  list.innerHTML=problemResults(shown);
   if(window.MathJax?.typesetPromise) window.MathJax.typesetPromise([list]).catch(error=>console.error('数学公式排版失败',error));
   count.textContent='显示 '+shown.length+' / '+state.data.questions.length+' 道题';
   document.getElementById('clear-filters')?.addEventListener('click',()=>{state.filters={topic:'全部知识板块',mastery:'全部掌握状态',search:'',notesOnly:false,ratings:{difficulty:false,importance:false,exam_probability:false}};render()});
+  document.getElementById('library-load-more')?.addEventListener('click',()=>{libraryVisibleCount+=LIBRARY_PAGE_SIZE;updateLibraryResults()});
   document.getElementById('notes-only-filter').onchange=e=>{state.filters.notesOnly=e.target.checked;render()};
 }
+let librarySearchTimer = null;
 function detailNavigation(q) {
   const ordered=state.data.questions.filter(matches);
   const list=ordered.some(item=>item.id===q.id)?ordered:state.data.questions;
@@ -323,11 +345,17 @@ function bindLibrary() {
   const layout=document.querySelector('.library-layout');
   if(layout&&!document.getElementById('mobile-filter-toggle')){const toggle=document.createElement('button');toggle.className='mobile-filter-toggle small-button';toggle.id='mobile-filter-toggle';toggle.type='button';toggle.textContent='筛选题目';toggle.setAttribute('aria-expanded','false');layout.parentNode.insertBefore(toggle,layout);}
   document.getElementById('mobile-filter-toggle')?.addEventListener('click',e=>{const filters=document.querySelector('.filters');const open=filters?.classList.toggle('mobile-open');e.currentTarget.setAttribute('aria-expanded',open?'true':'false');});
+  document.getElementById('library-load-more')?.addEventListener('click',()=>{libraryVisibleCount+=LIBRARY_PAGE_SIZE;updateLibraryResults()});
   document.getElementById('topic-filter').onchange=e=>{state.filters.topic=e.target.value;render()};
   document.getElementById('mastery-filter').onchange=e=>{state.filters.mastery=e.target.value;render()};
   const input=document.getElementById('search-input');
-  input.oninput=e=>{state.filters.search=e.target.value;updateLibraryResults()};
-  input.onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();state.filters.search=input.value.trim();updateLibraryResults()}};
+  input.oninput=e=>{
+    state.filters.search=e.target.value;
+    libraryVisibleCount=LIBRARY_PAGE_SIZE;
+    clearTimeout(librarySearchTimer);
+    librarySearchTimer=setTimeout(updateLibraryResults,140);
+  };
+  input.onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();clearTimeout(librarySearchTimer);state.filters.search=input.value.trim();updateLibraryResults()}};
   document.querySelectorAll('[data-rating]').forEach(el=>el.onchange=e=>{state.filters.ratings[e.target.dataset.rating]=e.target.checked;render()});
   document.getElementById('clear-filters')?.addEventListener('click',()=>{state.filters={topic:'全部知识板块',mastery:'全部掌握状态',search:'',notesOnly:false,ratings:{difficulty:false,importance:false,exam_probability:false}};render()});
 }

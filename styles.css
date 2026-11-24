@@ -333,6 +333,7 @@ body { background:#eef2f7; color:var(--ink); }
 
 .note-tag { color:var(--accent-ink); background:var(--accent-soft); border-radius:999px; padding:4px 8px; font-size:11px; }
 .detail-navigation { display:flex; justify-content:space-between; gap:12px; margin:0 0 18px; }
+.library-load-more { display:block; margin:8px auto 18px; }
 .detail-nav-link { display:flex; flex-direction:column; gap:3px; min-width:145px; padding:9px 12px; border:1px solid var(--line); border-radius:9px; color:var(--accent-ink); background:var(--surface); text-decoration:none; font-size:12px; }
 .detail-nav-link span { color:var(--muted); font-size:10px; }
 .detail-nav-link.next { text-align:right; align-items:flex-end; }
