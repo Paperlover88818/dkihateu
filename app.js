@@ -1,13 +1,14 @@
 const state = {
   data: null,
   progress: loadProgress(),
-  reviewTimes: loadReviewTimes(),
+  reviewTimes: {},
   user: null,
   supabase: null,
   accountMessage: '',
   noteIds: new Set(),
   filters: { topic: '全部知识板块', mastery: '全部掌握状态', search: '', notesOnly: false, ratings: { difficulty: false, importance: false, exam_probability: false } }
 };
+state.reviewTimes = loadReviewTimes();
 const masteryOptions = ['尚未评估', '我没有完全看懂', '我看懂了但无法复述', '我可以复述', '我完全掌握了'];
 const revealLabels = [['problem', '题目'], ['hint', '大致思路'], ['framework', '思维推进框架'], ['solution', '完整答案'], ['reflection', '反思收获']];
 const LAST_VIEWED_QUESTION_KEY = 'math-analysis-last-viewed-question';
