@@ -310,13 +310,13 @@ function bindAccount() {
   const say=text=>{state.accountMessage=text;if(message)message.textContent=text};
   const choices=[...document.querySelectorAll('.theme-choice')];
   if(choices.length){const current=loadTheme();choices.forEach(choice=>{choice.classList.toggle('is-selected',choice.dataset.themeChoice===current);choice.setAttribute('aria-pressed',choice.dataset.themeChoice===current?'true':'false');choice.onclick=e=>{e.preventDefault();e.stopPropagation();const value=choice.dataset.themeChoice;choices.forEach(item=>{item.classList.toggle('is-selected',item.dataset.themeChoice===value);item.setAttribute('aria-pressed',item.dataset.themeChoice===value?'true':'false')});applyTheme(value);try{localStorage.setItem(themeStorageKey(),value)}catch(_){} if(state.user&&state.supabase) state.supabase.auth.updateUser({data:{theme:value}}).catch(()=>{})}})}
-  document.getElementById('sign-out')?.addEventListener('click',async()=>{const {error}=await state.supabase.auth.signOut();if(error)say(error.message);else{state.user=null;state.accountMessage='已退出登录。';render()}});
+  document.getElementById('sign-out')?.addEventListener('click',async()=>{if(!state.supabase){say('登录服务暂不可用，题库仍可正常使用。');return}const {error}=await state.supabase.auth.signOut();if(error)say(error.message);else{state.user=null;state.accountMessage='已退出登录。';render()}});
   if(!form) return;
   const email=()=>document.getElementById('auth-email').value.trim();
   const password=()=>document.getElementById('auth-password').value;
-  form.addEventListener('submit',async e=>{e.preventDefault();say('正在登录…');const {error}=await state.supabase.auth.signInWithPassword({email:email(),password:password()});say(error?'登录失败：'+error.message:'登录成功，正在同步进度…')});
-  document.getElementById('sign-up').onclick=async()=>{say('正在创建账号…');const {data,error}=await state.supabase.auth.signUp({email:email(),password:password(),options:{emailRedirectTo:location.origin+location.pathname+'#account'}});say(error?'注册失败：'+error.message:(data.session?'账号已创建并登录。':'注册请求已提交。请查收邮箱并点击确认链接，再返回本网站登录。'))};
-  document.getElementById('reset-password').onclick=async()=>{if(!email()){say('请先填写邮箱，再点击忘记密码。');return}const {error}=await state.supabase.auth.resetPasswordForEmail(email(),{redirectTo:location.origin+location.pathname+'#account'});say(error?'发送失败：'+error.message:'如果该邮箱已注册，密码重置邮件很快会送达。')};
+  form.addEventListener('submit',async e=>{e.preventDefault();if(!state.supabase){say('登录服务暂不可用，题库仍可正常使用。');return}say('正在登录…');const {error}=await state.supabase.auth.signInWithPassword({email:email(),password:password()});say(error?'登录失败：'+error.message:'登录成功，正在同步进度…')});
+  document.getElementById('sign-up').onclick=async()=>{if(!state.supabase){say('登录服务暂不可用，题库仍可正常使用。');return}say('正在创建账号…');const {data,error}=await state.supabase.auth.signUp({email:email(),password:password(),options:{emailRedirectTo:location.origin+location.pathname+'#account'}});say(error?'注册失败：'+error.message:(data.session?'账号已创建并登录。':'注册请求已提交。请查收邮箱并点击确认链接，再返回本网站登录。'))};
+  document.getElementById('reset-password').onclick=async()=>{if(!state.supabase){say('登录服务暂不可用，题库仍可正常使用。');return}if(!email()){say('请先填写邮箱，再点击忘记密码。');return}const {error}=await state.supabase.auth.resetPasswordForEmail(email(),{redirectTo:location.origin+location.pathname+'#account'});say(error?'发送失败：'+error.message:'如果该邮箱已注册，密码重置邮件很快会送达。')};
 }
 function bindLibrary() {
   const layout=document.querySelector('.library-layout');
@@ -536,27 +536,57 @@ function render() {
   else if (!sameRoute) window.scrollTo({top:0,behavior:'instant'});
 }
 window.addEventListener('hashchange',render);
-if(window.supabase?.createClient && window.SUPABASE_CONFIG?.url && window.SUPABASE_CONFIG?.publishableKey) {
-  state.supabase=window.supabase.createClient(window.SUPABASE_CONFIG.url,window.SUPABASE_CONFIG.publishableKey);
-  state.supabase.auth.getSession().then(async({data,error})=>{
-    if(error) console.error('登录状态读取失败',error);
-    state.user=data?.session?.user||null;
-    state.progress=loadScopedProgress();
-    state.reviewTimes=loadReviewTimes();
-    await loadCloudProgress();
-    await loadCloudNotes();
+let supabaseInitializationStarted = false;
+function initializeSupabase() {
+  if (supabaseInitializationStarted) return;
+  if (!window.supabase?.createClient || !window.SUPABASE_CONFIG?.url || !window.SUPABASE_CONFIG?.publishableKey) {
+    if (window.SUPABASE_SDK_LOADED) {
+      state.accountMessage='登录服务初始化失败，请检查 Supabase 配置。题库仍可正常使用。';
+      render();
+    }
+    return;
+  }
+  supabaseInitializationStarted = true;
+  try {
+    state.supabase=window.supabase.createClient(window.SUPABASE_CONFIG.url,window.SUPABASE_CONFIG.publishableKey);
+    state.supabase.auth.getSession().then(async({data,error})=>{
+      if(error) console.error('登录状态读取失败',error);
+      state.user=data?.session?.user||null;
+      state.progress=loadScopedProgress();
+      state.reviewTimes=loadReviewTimes();
+      await loadCloudProgress();
+      await loadCloudNotes();
+      render();
+    }).catch(error=>{
+      console.error('登录状态初始化失败',error);
+      state.accountMessage='登录服务暂不可用，题库仍可正常使用。';
+      render();
+    });
+    state.supabase.auth.onAuthStateChange((_event,session)=>{
+      state.user=session?.user||null;
+      state.progress=loadScopedProgress();
+      state.reviewTimes=loadReviewTimes();
+      if(state.user) state.accountMessage='已登录，正在同步进度…';
+      render();
+      if(state.user) setTimeout(()=>Promise.all([loadCloudProgress(),loadCloudNotes()]).then(()=>{state.accountMessage='云端进度同步完成。';render()}),0);
+    });
+  } catch(error) {
+    console.error('Supabase 客户端初始化失败',error);
+    state.accountMessage='登录服务暂不可用，题库仍可正常使用。';
     render();
-  });
-  state.supabase.auth.onAuthStateChange((_event,session)=>{
-    state.user=session?.user||null;
-    state.progress=loadScopedProgress();
-    state.reviewTimes=loadReviewTimes();
-    if(state.user) state.accountMessage='已登录，正在同步进度…';
-    render();
-    if(state.user) setTimeout(()=>Promise.all([loadCloudProgress(),loadCloudNotes()]).then(()=>{state.accountMessage='云端进度同步完成。';render()}),0);
-  });
+  }
+}
+window.addEventListener('supabase-sdk-ready',initializeSupabase);
+window.addEventListener('supabase-sdk-error',()=>{
+  state.accountMessage='登录服务暂不可用，题库仍可正常使用。';
+  render();
+});
+if (window.SUPABASE_SDK_FAILED) {
+  state.accountMessage='登录服务暂不可用，题库仍可正常使用。';
+} else if (window.SUPABASE_SDK_LOADED || window.supabase?.createClient) {
+  initializeSupabase();
 } else {
-  state.accountMessage='登录服务未初始化。请检查 supabase-config.js 是否配置正确，以及网络能否加载 Supabase 客户端。';
+  state.accountMessage='登录服务连接中…';
 }
 fetch('library.json').then(r=>{if(!r.ok)throw Error('题库文件加载失败');return r.json()}).then(data=>{state.data=data;render()}).catch(err=>{document.getElementById('app').innerHTML='<div class="section"><div class="card" style="padding:24px">无法加载内容库。请确认 library.json 与 index.html 位于同一目录，或通过本地服务器打开此网页；不要直接使用 file://。</div></div>';console.error(err)});
 
